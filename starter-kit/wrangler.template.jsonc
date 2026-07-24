@@ -1,0 +1,51 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+
+  // CHANGE: worker name (becomes <name>.<account>.workers.dev)
+  "name": "MY-PROJECT-NAME",
+
+  "main": ".open-next/worker.js",
+  // CHANGE: bump to a recent date when starting the project
+  "compatibility_date": "2026-07-01",
+  "compatibility_flags": ["nodejs_compat"],
+
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+
+  // Dashboard logs (Workers Observability). Keep enabled.
+  "observability": {
+    "enabled": true
+  },
+
+  // OPTIONAL: D1 database binding (create first:
+  //   npx wrangler d1 create <db-name>
+  // then paste the id here). Delete this block if not needed.
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "MY-DB-NAME",
+      "database_id": "PASTE-DATABASE-ID"
+    }
+  ],
+
+  // Non-secret runtime config. Secrets go via:
+  //   echo <value> | npx wrangler secret put SECRET_NAME
+  "vars": {
+    "NEXT_PUBLIC_SITE_URL": "https://MY-DOMAIN.no"
+  },
+
+  // Keep the workers.dev preview URL even after adding custom domains —
+  // adding "routes" without this silently disables it.
+  "workers_dev": true
+
+  // Custom domains — enable ONLY at domain cutover time, after deleting
+  // the old A/AAAA/CNAME records for @ and www in the Cloudflare dashboard
+  // (keep MX/TXT!). See DEPLOYMENT.md issue #4.
+  //
+  // "routes": [
+  //   { "pattern": "MY-DOMAIN.no", "custom_domain": true },
+  //   { "pattern": "www.MY-DOMAIN.no", "custom_domain": true }
+  // ]
+}

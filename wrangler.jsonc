@@ -1,0 +1,99 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  // Custom entry re-exports OpenNext DO classes (queue + tag cache).
+  "main": "cloudflare-worker.ts",
+  "name": "peisbutikken-frontend",
+  "compatibility_date": "2026-06-01",
+  // Preserve dashboard/API Variables & Secrets on deploy (do not wipe prod env).
+  "keep_vars": true,
+  // Avoid esbuild __name helpers leaking into next-themes inline script (browser ReferenceError).
+  // https://opennext.js.org/cloudflare/howtos/keep_names
+  "keep_names": false,
+  "compatibility_flags": [
+    "nodejs_compat",
+    "global_fetch_strictly_public"
+  ],
+  // Local/CLI gate: refuse bare `wrangler deploy` unless OpenNext deploy set
+  // PB_OPENNEXT_DEPLOY=1 (or PB_WRANGLER_DRY_RUN=1 for release:build:verify).
+  // Workers Builds does NOT honor this — dashboard Deploy command must be
+  // `npm run deploy:opennext` (see CLOUDFLARE.md / release preflight runbook).
+  "build": {
+    "command": "node scripts/assert-safe-wrangler-deploy.mjs"
+  },
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "services": [
+    {
+      "binding": "WORKER_SELF_REFERENCE",
+      "service": "peisbutikken-frontend"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "NEXT_INC_CACHE_R2_BUCKET",
+      "bucket_name": "peisbutikken-next-inc-cache-weur"
+    },
+    {
+      "binding": "CONTACT_ATTACHMENTS_R2",
+      "bucket_name": "peisbutikken-contact-attachments"
+    }
+  ],
+  "d1_databases": [
+    {
+      "binding": "CONTACT_SUBMISSIONS_DB",
+      "database_name": "peisbutikken-contact-submissions",
+      "database_id": "f6ef3a5f-bb98-443f-beff-49016c8c5e16",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "NEXT_CACHE_DO_QUEUE",
+        "class_name": "DOQueueHandler"
+      },
+      {
+        "name": "NEXT_TAG_CACHE_DO_SHARDED",
+        "class_name": "DOShardedTagCache"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": [
+        "DOQueueHandler"
+      ]
+    },
+    {
+      "tag": "v2",
+      "new_sqlite_classes": [
+        "DOShardedTagCache"
+      ]
+    }
+  ],
+  // Intentionally no `images.binding` — OpenNext would route `/_next/image`
+  // through Cloudflare Images (5k free unique transforms/month; 9422 when exhausted).
+  // With next.config `images.unoptimized: true`, next/image serves origin URLs.
+  // Workers Logs + traces with safe head sampling (schema-supported).
+  // Do not set arbitrary `limits.cpu_ms` — raise only after Workers metrics show need.
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 0.1,
+    "logs": {
+      "enabled": true,
+      "invocation_logs": true,
+      "head_sampling_rate": 0.1
+    },
+    "traces": {
+      "enabled": true,
+      "head_sampling_rate": 0.05
+    }
+  }
+  // Search index caching uses Next/OpenNext incremental cache (R2 + DO) via tags.
+  // No extra KV/R2 binding is required unless you move index storage to a dedicated service.
+  // Regional Cache API purge (BucketCachePurge + CACHE_PURGE_*) is a follow-up —
+  // see CLOUDFLARE.md; requires zone secrets and a DO migration, not guessed here.
+}

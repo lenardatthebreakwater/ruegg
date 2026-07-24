@@ -1,0 +1,60 @@
+---
+description: Prefer effect-last React patterns and avoid direct useEffect
+alwaysApply: true
+---
+
+# React: Effect-Last (Avoid `useEffect`)
+
+Default rule: do **not** add `useEffect` for normal app logic.
+
+`useEffect` is allowed only when synchronizing with an external system (for example: browser APIs, subscriptions, timers, analytics, third-party widgets, websocket lifecycle).
+
+## Rules
+
+- **No derived state in effects**: If a value can be computed from props/state, compute it during render (or `useMemo` if needed).
+- **No event logic in effects**: Put user-triggered behavior in event handlers, not in effect chains.
+- **No fetch-on-render effects by default**: Prefer framework/data abstractions (Server Components, route loaders/actions, TanStack Query, SWR, etc.) over manual fetch effects.
+- **No direct `useEffect` imports in feature code**: Use existing abstractions/hooks first.
+- **Mount-only sync is rare**: If a one-time mount sync is truly required, use a dedicated wrapper hook such as `useMountEffect`.
+
+## Allowed Use Cases
+
+- Subscribing/unsubscribing to external event sources
+- Integrating imperative third-party libraries
+- Managing timers tied to component lifecycle
+- Syncing with browser APIs that are not render-safe
+
+## Examples
+
+```tsx
+// ❌ BAD — derived state via effect
+const [fullName, setFullName] = useState("");
+useEffect(() => {
+  setFullName(`${user.firstName} ${user.lastName}`);
+}, [user.firstName, user.lastName]);
+
+// ✅ GOOD — derive during render
+const fullName = `${user.firstName} ${user.lastName}`;
+```
+
+```tsx
+// ❌ BAD — event flow through effect
+useEffect(() => {
+  if (isSubmitted) {
+    toast.success("Lagt til");
+  }
+}, [isSubmitted]);
+
+// ✅ GOOD — keep in handler
+async function onSubmit() {
+  await save();
+  toast.success("Lagt til");
+}
+```
+
+```tsx
+// Rare escape hatch for true mount-only external sync
+export function useMountEffect(effect: () => void | (() => void)) {
+  useEffect(effect, []);
+}
+```

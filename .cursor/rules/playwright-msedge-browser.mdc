@@ -1,0 +1,14 @@
+---
+description: Prefer Playwright MCP with MS Edge for all browser automation
+alwaysApply: true
+---
+
+# Browser automation: Playwright + MS Edge
+
+When browser interaction is needed (navigate, click, screenshot, DOM inspect, visual QA):
+
+- **Use** the `user-playwright` MCP server (Playwright).
+- **Do not** use `cursor-ide-browser` unless Playwright is unavailable or the user explicitly asks for it.
+- Playwright is configured with `--browser=msedge` — keep using that Edge session.
+- Prefer Playwright tools: `browser_tabs`, `browser_navigate`, `browser_snapshot`, `browser_click`, `browser_take_screenshot`, etc.
+- For zoom/CDP-only needs, use `browser_run_code_unsafe` / `browser_evaluate` on the Playwright page.

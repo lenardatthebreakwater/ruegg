@@ -1,0 +1,44 @@
+---
+description: Everything is a component — structure UI as components for future Builder.io
+alwaysApply: true
+---
+
+# Everything Is a Component
+
+Structure all UI as **named, exportable components**. Pages and layouts should compose components only; avoid large inline JSX. This keeps the codebase ready for future Builder.io (non-coders editing via a visual builder).
+
+## Rules
+
+- **Pages** (`app/**/*.tsx`): Import and compose components only. No big blocks of JSX in the page file.
+- **Sections and blocks**: Each distinct section (hero, features, footer, CTA, etc.) is its own component in `components/` or a feature folder.
+- **Reusable pieces**: Buttons, cards, headings, layouts → components. No one-off inline markup that could be a component.
+- **Naming**: Use clear, semantic names (e.g. `HeroSection`, `ProductGrid`, `CheckoutForm`).
+
+## Examples
+
+```tsx
+// ❌ BAD — page full of inline JSX
+export default function Page() {
+  return (
+    <main>
+      <header><h1>...</h1><nav>...</nav></header>
+      <section><h2>...</h2><p>...</p></section>
+      <section><div className="grid">...</div></section>
+    </main>
+  );
+}
+
+// ✅ GOOD — page composes components
+export default function Page() {
+  return (
+    <main>
+      <SiteHeader />
+      <HeroSection />
+      <FeaturesGrid />
+    </main>
+  );
+}
+```
+
+- New UI = new component (or reuse existing). Extract as soon as a block is identifiable (section, card, form, list).
+- Keep components in `components/` (or domain folders) with one primary component per file unless tightly related (e.g. component + subcomponents in same file).

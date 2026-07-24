@@ -1,0 +1,35 @@
+---
+description: Prefer shadcn/ui components instead of building from scratch
+alwaysApply: true
+---
+
+# Prefer shadcn Components
+
+Use **shadcn/ui** components from `@/components/ui/` instead of building equivalent UI from scratch. This keeps the design system consistent and reduces custom code.
+
+## Rules
+
+- **Before adding custom UI**: Check if a shadcn component exists (Button, Card, Dialog, DropdownMenu, Tooltip, Input, etc.). Use `npx shadcn@latest add <component>` if the component is not yet in the project.
+- **Compose with shadcn**: Build features by composing shadcn components and styling with `className` / variants. Don’t reimplement buttons, modals, tooltips, or form controls with raw HTML + Tailwind.
+- **When no shadcn fit**: If no shadcn component matches (e.g. a one-off illustration or layout), build a custom component and keep it in `components/` as per project structure.
+
+## Examples
+
+```tsx
+// ❌ BAD — custom button/tooltip from scratch
+<button className="rounded bg-blue-500 px-4 py-2 text-white hover:bg-blue-600">
+  Submit
+</button>
+<span title="Help text">?</span>
+
+// ✅ GOOD — use shadcn
+import { Button } from "@/components/ui/button";
+import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
+<Button>Submit</Button>
+<Tooltip>
+  <TooltipTrigger asChild><Button variant="ghost" size="icon">?</Button></TooltipTrigger>
+  <TooltipContent>Help text</TooltipContent>
+</Tooltip>
+```
+
+- Need a dialog, dropdown, or popover? Add and use the shadcn component first instead of building a custom one.

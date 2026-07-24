@@ -1,0 +1,2191 @@
+{
+  "generatedAt": "2026-07-12T23:01:42.653Z",
+  "images": {
+    "/images/campaigns/aduro-hybrid/hero.jpg": {
+      "base": "/images/campaigns/aduro-hybrid/hero",
+      "avif": "/images/campaigns/aduro-hybrid/hero.avif",
+      "webp": "/images/campaigns/aduro-hybrid/hero.webp",
+      "hash": "6494cf95207de57e",
+      "bytesIn": 341422,
+      "bytesAvif": 21873,
+      "bytesWebp": 30906
+    },
+    "/images/campaigns/aduro-vedovner/hero.jpg": {
+      "base": "/images/campaigns/aduro-vedovner/hero",
+      "avif": "/images/campaigns/aduro-vedovner/hero.avif",
+      "webp": "/images/campaigns/aduro-vedovner/hero.webp",
+      "hash": "af794ede6c90a1ef",
+      "bytesIn": 85941,
+      "bytesAvif": 32751,
+      "bytesWebp": 42566
+    },
+    "/images/campaigns/black-friday-2025/feature.jpg": {
+      "base": "/images/campaigns/black-friday-2025/feature",
+      "avif": "/images/campaigns/black-friday-2025/feature.avif",
+      "webp": "/images/campaigns/black-friday-2025/feature.webp",
+      "aliasOf": "/images/campaigns/black-friday-2024/feature.jpg",
+      "hash": "0cfba12f15e99085"
+    },
+    "/images/campaigns/usedom-5/hero.webp": {
+      "base": "/images/campaigns/usedom-5/hero",
+      "avif": "/images/campaigns/usedom-5/hero.avif",
+      "webp": "/images/campaigns/usedom-5/hero.webp",
+      "aliasOf": "/images/campaigns/usedom-5/feature.webp",
+      "hash": "e3f862b6f49569e2"
+    },
+    "/images/hub-pages/nordpeis/hero.jpg": {
+      "base": "/images/hub-pages/nordpeis/hero",
+      "avif": "/images/hub-pages/nordpeis/hero.avif",
+      "webp": "/images/hub-pages/nordpeis/hero.webp",
+      "aliasOf": "/images/hub-pages/nordpeis/feature.jpg",
+      "hash": "33f21814aa73e6da"
+    },
+    "/images/hub-pages/nordpeis/teaser-peisovn.jpg": {
+      "base": "/images/hub-pages/nordpeis/teaser-peisovn",
+      "avif": "/images/hub-pages/nordpeis/teaser-peisovn.avif",
+      "webp": "/images/hub-pages/nordpeis/teaser-peisovn.webp",
+      "aliasOf": "/images/hub-pages/nordpeis/feature.jpg",
+      "hash": "33f21814aa73e6da"
+    },
+    "/images/hub-pages/peisovn/brand-nordpeis.webp": {
+      "base": "/images/hub-pages/peisovn/brand-nordpeis",
+      "avif": "/images/hub-pages/peisovn/brand-nordpeis.avif",
+      "webp": "/images/hub-pages/peisovn/brand-nordpeis.webp",
+      "aliasOf": "/images/hub-pages/peisinnsats/brand-nordpeis.webp",
+      "hash": "25b27c586068539a"
+    },
+    "/images/hub-pages/stalpipe/teaser-ventilert.webp": {
+      "base": "/images/hub-pages/stalpipe/teaser-ventilert",
+      "avif": "/images/hub-pages/stalpipe/teaser-ventilert.avif",
+      "webp": "/images/hub-pages/stalpipe/teaser-ventilert.webp",
+      "aliasOf": "/images/hub-pages/peis/feature.webp",
+      "hash": "b2db998af8bba232"
+    },
+    "/images/navbar/reservedeler/aduro.webp": {
+      "base": "/images/navbar/reservedeler/aduro",
+      "avif": "/images/navbar/reservedeler/aduro.avif",
+      "webp": "/images/navbar/reservedeler/aduro.webp",
+      "aliasOf": "/images/navbar/merker/aduro.webp",
+      "hash": "4505c68f5797c4d1"
+    },
+    "/images/navbar/reservedeler/dovre.webp": {
+      "base": "/images/navbar/reservedeler/dovre",
+      "avif": "/images/navbar/reservedeler/dovre.avif",
+      "webp": "/images/navbar/reservedeler/dovre.webp",
+      "aliasOf": "/images/navbar/merker/dovre.webp",
+      "hash": "f9c57443edbb80c8"
+    },
+    "/images/navbar/reservedeler/jydepejsen.webp": {
+      "base": "/images/navbar/reservedeler/jydepejsen",
+      "avif": "/images/navbar/reservedeler/jydepejsen.avif",
+      "webp": "/images/navbar/reservedeler/jydepejsen.webp",
+      "aliasOf": "/images/navbar/merker/jydepejsen.webp",
+      "hash": "b0d833bf812dc519"
+    },
+    "/images/navbar/reservedeler/nordpeis.webp": {
+      "base": "/images/navbar/reservedeler/nordpeis",
+      "avif": "/images/navbar/reservedeler/nordpeis.avif",
+      "webp": "/images/navbar/reservedeler/nordpeis.webp",
+      "aliasOf": "/images/navbar/merker/nordpeis.webp",
+      "hash": "ac58d998081af9f6"
+    },
+    "/images/navbar/tilbehor/peistilbehor.webp": {
+      "base": "/images/navbar/tilbehor/peistilbehor",
+      "avif": "/images/navbar/tilbehor/peistilbehor.avif",
+      "webp": "/images/navbar/tilbehor/peistilbehor.webp",
+      "aliasOf": "/images/homepage/products/fireplace-accessories.webp",
+      "hash": "8086f130a9f61ec2"
+    },
+    "/images/populaere-sok/hajduk.webp": {
+      "base": "/images/populaere-sok/hajduk",
+      "avif": "/images/populaere-sok/hajduk.avif",
+      "webp": "/images/populaere-sok/hajduk.webp",
+      "aliasOf": "/images/hub-pages/hajduk/feature.webp",
+      "hash": "dd656ab2117ed01e"
+    },
+    "/images/populaere-sok/stalpipe.webp": {
+      "base": "/images/populaere-sok/stalpipe",
+      "avif": "/images/populaere-sok/stalpipe.avif",
+      "webp": "/images/populaere-sok/stalpipe.webp",
+      "hash": "5d565d3398760fac",
+      "bytesIn": 24892,
+      "bytesAvif": 18421,
+      "bytesWebp": 22998
+    },
+    "/images/campaigns/aduro-hybrid/hero.avif": {
+      "base": "/images/campaigns/aduro-hybrid/hero",
+      "avif": "/images/campaigns/aduro-hybrid/hero.avif",
+      "webp": "/images/campaigns/aduro-hybrid/hero.webp",
+      "hash": "07ee2fa3495a412a"
+    },
+    "/images/campaigns/aduro-hybrid/hero.webp": {
+      "base": "/images/campaigns/aduro-hybrid/hero",
+      "avif": "/images/campaigns/aduro-hybrid/hero.avif",
+      "webp": "/images/campaigns/aduro-hybrid/hero.webp",
+      "hash": "ea551694181ac3cf"
+    },
+    "/images/campaigns/aduro-vedovner/hero.avif": {
+      "base": "/images/campaigns/aduro-vedovner/hero",
+      "avif": "/images/campaigns/aduro-vedovner/hero.avif",
+      "webp": "/images/campaigns/aduro-vedovner/hero.webp",
+      "hash": "def4e65e18133bd6"
+    },
+    "/images/campaigns/aduro-vedovner/hero.webp": {
+      "base": "/images/campaigns/aduro-vedovner/hero",
+      "avif": "/images/campaigns/aduro-vedovner/hero.avif",
+      "webp": "/images/campaigns/aduro-vedovner/hero.webp",
+      "hash": "1f62ce84d76269e5"
+    },
+    "/images/campaigns/black-friday-2024/feature.jpg": {
+      "base": "/images/campaigns/black-friday-2024/feature",
+      "avif": "/images/campaigns/black-friday-2024/feature.avif",
+      "webp": "/images/campaigns/black-friday-2024/feature.webp",
+      "hash": "0cfba12f15e99085",
+      "bytesIn": 422220,
+      "bytesAvif": 47320,
+      "bytesWebp": 61306
+    },
+    "/images/campaigns/black-friday-2025/hero.webp": {
+      "base": "/images/campaigns/black-friday-2025/hero",
+      "avif": "/images/campaigns/black-friday-2025/hero.avif",
+      "webp": "/images/campaigns/black-friday-2025/hero.webp",
+      "hash": "6c843ee9a8ccd575"
+    },
+    "/images/campaigns/nordpeis-kampanje/campaign-banner.png": {
+      "base": "/images/campaigns/nordpeis-kampanje/campaign-banner",
+      "avif": "/images/campaigns/nordpeis-kampanje/campaign-banner.avif",
+      "webp": "/images/campaigns/nordpeis-kampanje/campaign-banner.webp",
+      "hash": "d5b19a3d756c6dde",
+      "bytesIn": 128646,
+      "bytesAvif": 38542,
+      "bytesWebp": 50066
+    },
+    "/images/campaigns/nordpeis-kampanje/hero.jpg": {
+      "base": "/images/campaigns/nordpeis-kampanje/hero",
+      "avif": "/images/campaigns/nordpeis-kampanje/hero.avif",
+      "webp": "/images/campaigns/nordpeis-kampanje/hero.webp",
+      "hash": "1e84f823b78c9618",
+      "bytesIn": 299320,
+      "bytesAvif": 24282,
+      "bytesWebp": 36458
+    },
+    "/images/campaigns/oranier-pureblack/arena-w-2.0-pureblack-livstilbilde-landing-page.webp": {
+      "base": "/images/campaigns/oranier-pureblack/arena-w-2.0-pureblack-livstilbilde-landing-page",
+      "avif": "/images/campaigns/oranier-pureblack/arena-w-2.0-pureblack-livstilbilde-landing-page.avif",
+      "webp": "/images/campaigns/oranier-pureblack/arena-w-2.0-pureblack-livstilbilde-landing-page.webp",
+      "hash": "62f70479e5f8c0dd"
+    },
+    "/images/campaigns/oranier-pureblack/arktis-7-2.0-pureblack-livstilbilde.webp": {
+      "base": "/images/campaigns/oranier-pureblack/arktis-7-2.0-pureblack-livstilbilde",
+      "avif": "/images/campaigns/oranier-pureblack/arktis-7-2.0-pureblack-livstilbilde.avif",
+      "webp": "/images/campaigns/oranier-pureblack/arktis-7-2.0-pureblack-livstilbilde.webp",
+      "hash": "dbad904fe6074325"
+    },
+    "/images/campaigns/oranier-pureblack/oranier-arena-pureblack-transparent-1.webp": {
+      "base": "/images/campaigns/oranier-pureblack/oranier-arena-pureblack-transparent-1",
+      "avif": "/images/campaigns/oranier-pureblack/oranier-arena-pureblack-transparent-1.avif",
+      "webp": "/images/campaigns/oranier-pureblack/oranier-arena-pureblack-transparent-1.webp",
+      "hash": "4314a3de1139866b"
+    },
+    "/images/campaigns/oranier-pureblack/oranier-arktis-pureblack-transparent-bakgrunn.webp": {
+      "base": "/images/campaigns/oranier-pureblack/oranier-arktis-pureblack-transparent-bakgrunn",
+      "avif": "/images/campaigns/oranier-pureblack/oranier-arktis-pureblack-transparent-bakgrunn.avif",
+      "webp": "/images/campaigns/oranier-pureblack/oranier-arktis-pureblack-transparent-bakgrunn.webp",
+      "hash": "280b39bd7b218093"
+    },
+    "/images/campaigns/oranier-pureblack/oranier-polar-neo-pureblack-transparent-bakgrunn.webp": {
+      "base": "/images/campaigns/oranier-pureblack/oranier-polar-neo-pureblack-transparent-bakgrunn",
+      "avif": "/images/campaigns/oranier-pureblack/oranier-polar-neo-pureblack-transparent-bakgrunn.avif",
+      "webp": "/images/campaigns/oranier-pureblack/oranier-polar-neo-pureblack-transparent-bakgrunn.webp",
+      "hash": "d930901ec3067036"
+    },
+    "/images/campaigns/oranier-pureblack/oranier-pureblack-peisovn-tegning.webp": {
+      "base": "/images/campaigns/oranier-pureblack/oranier-pureblack-peisovn-tegning",
+      "avif": "/images/campaigns/oranier-pureblack/oranier-pureblack-peisovn-tegning.avif",
+      "webp": "/images/campaigns/oranier-pureblack/oranier-pureblack-peisovn-tegning.webp",
+      "hash": "678d1cf5bebf8487"
+    },
+    "/images/campaigns/usedom-5/feature.webp": {
+      "base": "/images/campaigns/usedom-5/feature",
+      "avif": "/images/campaigns/usedom-5/feature.avif",
+      "webp": "/images/campaigns/usedom-5/feature.webp",
+      "hash": "e3f862b6f49569e2"
+    },
+    "/images/contact/contact-hero.webp": {
+      "base": "/images/contact/contact-hero",
+      "avif": "/images/contact/contact-hero.avif",
+      "webp": "/images/contact/contact-hero.webp",
+      "hash": "c32665758437e95f"
+    },
+    "/images/homepage/feature-strip-01-sesongstilbud-utepeis.png": {
+      "base": "/images/homepage/feature-strip-seasonal-outdoor-fireplace",
+      "avif": "/images/homepage/feature-strip-seasonal-outdoor-fireplace.avif",
+      "webp": "/images/homepage/feature-strip-seasonal-outdoor-fireplace.webp",
+      "hash": "7065363e347d6651",
+      "bytesIn": 181861,
+      "bytesAvif": 68836,
+      "bytesWebp": 75772
+    },
+    "/images/homepage/feature-strip-02-peisovn-wide.png": {
+      "base": "/images/homepage/feature-strip-wood-stove-wide",
+      "avif": "/images/homepage/feature-strip-wood-stove-wide.avif",
+      "webp": "/images/homepage/feature-strip-wood-stove-wide.webp",
+      "hash": "21749a63eb92127c",
+      "bytesIn": 101505,
+      "bytesAvif": 23668,
+      "bytesWebp": 29006
+    },
+    "/images/homepage/feature-strip-02-peisovn.jpg": {
+      "base": "/images/homepage/feature-strip-wood-stove",
+      "avif": "/images/homepage/feature-strip-wood-stove.avif",
+      "webp": "/images/homepage/feature-strip-wood-stove.webp",
+      "hash": "510bc0e4ecb3f033",
+      "bytesIn": 372885,
+      "bytesAvif": 33621,
+      "bytesWebp": 43382
+    },
+    "/images/homepage/feature-strip-03-montering.webp": {
+      "base": "/images/homepage/feature-strip-installation",
+      "avif": "/images/homepage/feature-strip-installation.avif",
+      "webp": "/images/homepage/feature-strip-installation.webp",
+      "hash": "a66fc5fdd4aba5c0",
+      "bytesIn": 71704,
+      "bytesAvif": 48743,
+      "bytesWebp": 66678
+    },
+    "/images/homepage/feature-strip-04-3d-visualisering.webp": {
+      "base": "/images/homepage/feature-strip-3d-visualization",
+      "avif": "/images/homepage/feature-strip-3d-visualization.avif",
+      "webp": "/images/homepage/feature-strip-3d-visualization.webp",
+      "hash": "6d4d97398dada0a1",
+      "bytesIn": 24256,
+      "bytesAvif": 17480,
+      "bytesWebp": 23208
+    },
+    "/images/homepage/hero.webp": {
+      "base": "/images/homepage/hero-fireplace-living-room",
+      "avif": "/images/homepage/hero-fireplace-living-room.avif",
+      "webp": "/images/homepage/hero-fireplace-living-room.webp",
+      "hash": "d29d32dd59d9b864",
+      "bytesIn": 2818684,
+      "bytesAvif": 50676,
+      "bytesWebp": 77118
+    },
+    "/images/homepage/location/showroom-bg.webp": {
+      "base": "/images/homepage/location/showroom-baerum",
+      "avif": "/images/homepage/location/showroom-baerum.avif",
+      "webp": "/images/homepage/location/showroom-baerum.webp",
+      "hash": "4625c635d251ab27",
+      "bytesIn": 1423026,
+      "bytesAvif": 137501,
+      "bytesWebp": 168292
+    },
+    "/images/homepage/offers/pipe-rehabilitation.webp": {
+      "base": "/images/homepage/offers/chimney-rehabilitation",
+      "avif": "/images/homepage/offers/chimney-rehabilitation.avif",
+      "webp": "/images/homepage/offers/chimney-rehabilitation.webp",
+      "hash": "b33168ba16ceb43e",
+      "bytesIn": 1604552,
+      "bytesAvif": 90683,
+      "bytesWebp": 136244
+    },
+    "/images/homepage/offers/spare-parts.webp": {
+      "base": "/images/homepage/offers/spare-parts",
+      "avif": "/images/homepage/offers/spare-parts.avif",
+      "webp": "/images/homepage/offers/spare-parts.webp",
+      "hash": "6902f580524943b8"
+    },
+    "/images/homepage/offers/spring-campaign.png": {
+      "base": "/images/homepage/offers/spring-campaign",
+      "avif": "/images/homepage/offers/spring-campaign.avif",
+      "webp": "/images/homepage/offers/spring-campaign.webp",
+      "hash": "48739085b89beab5",
+      "bytesIn": 195364,
+      "bytesAvif": 44197,
+      "bytesWebp": 63432
+    },
+    "/images/homepage/products/elementpeis.webp": {
+      "base": "/images/homepage/products/element-fireplace",
+      "avif": "/images/homepage/products/element-fireplace.avif",
+      "webp": "/images/homepage/products/element-fireplace.webp",
+      "hash": "42cda50a4ab35ec4",
+      "bytesIn": 449022,
+      "bytesAvif": 22337,
+      "bytesWebp": 25338
+    },
+    "/images/homepage/products/gasspeis.webp": {
+      "base": "/images/homepage/products/gas-fireplace",
+      "avif": "/images/homepage/products/gas-fireplace.avif",
+      "webp": "/images/homepage/products/gas-fireplace.webp",
+      "hash": "9172f7960340cdc8",
+      "bytesIn": 962734,
+      "bytesAvif": 41765,
+      "bytesWebp": 52894
+    },
+    "/images/homepage/products/peisinnsats.webp": {
+      "base": "/images/homepage/products/fireplace-insert",
+      "avif": "/images/homepage/products/fireplace-insert.avif",
+      "webp": "/images/homepage/products/fireplace-insert.webp",
+      "hash": "2590a35b5a62e19a",
+      "bytesIn": 548988,
+      "bytesAvif": 32777,
+      "bytesWebp": 45214
+    },
+    "/images/homepage/products/peisovn.webp": {
+      "base": "/images/homepage/products/wood-stove",
+      "avif": "/images/homepage/products/wood-stove.avif",
+      "webp": "/images/homepage/products/wood-stove.webp",
+      "hash": "e0f4e5e5a0041855",
+      "bytesIn": 1112018,
+      "bytesAvif": 56125,
+      "bytesWebp": 71762
+    },
+    "/images/homepage/products/peistilbehor.webp": {
+      "base": "/images/homepage/products/fireplace-accessories",
+      "avif": "/images/homepage/products/fireplace-accessories.avif",
+      "webp": "/images/homepage/products/fireplace-accessories.webp",
+      "hash": "40dc3c21bb55f505",
+      "bytesIn": 264468,
+      "bytesAvif": 9158,
+      "bytesWebp": 12016
+    },
+    "/images/homepage/products/utepeis.webp": {
+      "base": "/images/homepage/products/outdoor-fireplace",
+      "avif": "/images/homepage/products/outdoor-fireplace.avif",
+      "webp": "/images/homepage/products/outdoor-fireplace.webp",
+      "hash": "bcb77375bc6a8517",
+      "bytesIn": 1213060,
+      "bytesAvif": 90391,
+      "bytesWebp": 113424
+    },
+    "/images/hub-pages/aduro/feature.jpg": {
+      "base": "/images/hub-pages/aduro/feature",
+      "avif": "/images/hub-pages/aduro/feature.avif",
+      "webp": "/images/hub-pages/aduro/feature.webp",
+      "hash": "2994c4c74e349fc8",
+      "bytesIn": 89205,
+      "bytesAvif": 16861,
+      "bytesWebp": 25344
+    },
+    "/images/hub-pages/aduro/hero.webp": {
+      "base": "/images/hub-pages/aduro/hero",
+      "avif": "/images/hub-pages/aduro/hero.avif",
+      "webp": "/images/hub-pages/aduro/hero.webp",
+      "hash": "974d44c79bcecc95"
+    },
+    "/images/hub-pages/aduro/teaser-1-1.webp": {
+      "base": "/images/hub-pages/aduro/teaser-1-1",
+      "avif": "/images/hub-pages/aduro/teaser-1-1.avif",
+      "webp": "/images/hub-pages/aduro/teaser-1-1.webp",
+      "hash": "71f00a7de1b49f75"
+    },
+    "/images/hub-pages/aduro/teaser-9-4-wall.jpg": {
+      "base": "/images/hub-pages/aduro/teaser-9-4-wall",
+      "avif": "/images/hub-pages/aduro/teaser-9-4-wall.avif",
+      "webp": "/images/hub-pages/aduro/teaser-9-4-wall.webp",
+      "hash": "ac598efe42f01d13",
+      "bytesIn": 523782,
+      "bytesAvif": 37895,
+      "bytesWebp": 53262
+    },
+    "/images/hub-pages/aduro/teaser-9-5.png": {
+      "base": "/images/hub-pages/aduro/teaser-9-5",
+      "avif": "/images/hub-pages/aduro/teaser-9-5.avif",
+      "webp": "/images/hub-pages/aduro/teaser-9-5.webp",
+      "hash": "a4320df01d54a3e8",
+      "bytesIn": 603776,
+      "bytesAvif": 14920,
+      "bytesWebp": 21502
+    },
+    "/images/hub-pages/dovre-peis/feature.jpg": {
+      "base": "/images/hub-pages/dovre-peis/feature",
+      "avif": "/images/hub-pages/dovre-peis/feature.avif",
+      "webp": "/images/hub-pages/dovre-peis/feature.webp",
+      "hash": "ae5f9c6d9cdc8d6c",
+      "bytesIn": 190781,
+      "bytesAvif": 66183,
+      "bytesWebp": 79182
+    },
+    "/images/hub-pages/dovre-peis/hero.webp": {
+      "base": "/images/hub-pages/dovre-peis/hero",
+      "avif": "/images/hub-pages/dovre-peis/hero.avif",
+      "webp": "/images/hub-pages/dovre-peis/hero.webp",
+      "hash": "bbadd9ab4053a805"
+    },
+    "/images/hub-pages/dovre-peis/teaser-phoenix.jpg": {
+      "base": "/images/hub-pages/dovre-peis/teaser-phoenix",
+      "avif": "/images/hub-pages/dovre-peis/teaser-phoenix.avif",
+      "webp": "/images/hub-pages/dovre-peis/teaser-phoenix.webp",
+      "hash": "14b7f70bdc040720",
+      "bytesIn": 452540,
+      "bytesAvif": 33805,
+      "bytesWebp": 45996
+    },
+    "/images/hub-pages/dovre-peis/teaser-saga.jpg": {
+      "base": "/images/hub-pages/dovre-peis/teaser-saga",
+      "avif": "/images/hub-pages/dovre-peis/teaser-saga.avif",
+      "webp": "/images/hub-pages/dovre-peis/teaser-saga.webp",
+      "hash": "550f7d65a0240d3f",
+      "bytesIn": 158381,
+      "bytesAvif": 43173,
+      "bytesWebp": 63314
+    },
+    "/images/hub-pages/dovre-peis/teaser-sense.jpg": {
+      "base": "/images/hub-pages/dovre-peis/teaser-sense",
+      "avif": "/images/hub-pages/dovre-peis/teaser-sense.avif",
+      "webp": "/images/hub-pages/dovre-peis/teaser-sense.webp",
+      "hash": "c2b3144e05a179fd",
+      "bytesIn": 424298,
+      "bytesAvif": 56811,
+      "bytesWebp": 61556
+    },
+    "/images/hub-pages/element4/feature.webp": {
+      "base": "/images/hub-pages/element4/feature",
+      "avif": "/images/hub-pages/element4/feature.avif",
+      "webp": "/images/hub-pages/element4/feature.webp",
+      "hash": "108905f55c991ea4"
+    },
+    "/images/hub-pages/element4/hero.webp": {
+      "base": "/images/hub-pages/element4/hero",
+      "avif": "/images/hub-pages/element4/hero.avif",
+      "webp": "/images/hub-pages/element4/hero.webp",
+      "hash": "4cf76c7cc9d050a2"
+    },
+    "/images/hub-pages/element4/teaser-bidore.webp": {
+      "base": "/images/hub-pages/element4/teaser-bidore",
+      "avif": "/images/hub-pages/element4/teaser-bidore.avif",
+      "webp": "/images/hub-pages/element4/teaser-bidore.webp",
+      "hash": "6001fd56bd4e59a4"
+    },
+    "/images/hub-pages/element4/teaser-lucius.webp": {
+      "base": "/images/hub-pages/element4/teaser-lucius",
+      "avif": "/images/hub-pages/element4/teaser-lucius.avif",
+      "webp": "/images/hub-pages/element4/teaser-lucius.webp",
+      "hash": "ae2543624d87478f"
+    },
+    "/images/hub-pages/element4/teaser-trisore.webp": {
+      "base": "/images/hub-pages/element4/teaser-trisore",
+      "avif": "/images/hub-pages/element4/teaser-trisore.avif",
+      "webp": "/images/hub-pages/element4/teaser-trisore.webp",
+      "hash": "2278d8d5a4be88cf"
+    },
+    "/images/hub-pages/hajduk/feature.webp": {
+      "base": "/images/hub-pages/hajduk/feature",
+      "avif": "/images/hub-pages/hajduk/feature.avif",
+      "webp": "/images/hub-pages/hajduk/feature.webp",
+      "hash": "dd656ab2117ed01e"
+    },
+    "/images/hub-pages/hajduk/hero.webp": {
+      "base": "/images/hub-pages/hajduk/hero",
+      "avif": "/images/hub-pages/hajduk/hero.avif",
+      "webp": "/images/hub-pages/hajduk/hero.webp",
+      "hash": "7ead713c8ffb9714"
+    },
+    "/images/hub-pages/hajduk/teaser-prisma.webp": {
+      "base": "/images/hub-pages/hajduk/teaser-prisma",
+      "avif": "/images/hub-pages/hajduk/teaser-prisma.avif",
+      "webp": "/images/hub-pages/hajduk/teaser-prisma.webp",
+      "hash": "6833bfd4ad777f84"
+    },
+    "/images/hub-pages/hajduk/teaser-smart.webp": {
+      "base": "/images/hub-pages/hajduk/teaser-smart",
+      "avif": "/images/hub-pages/hajduk/teaser-smart.avif",
+      "webp": "/images/hub-pages/hajduk/teaser-smart.webp",
+      "hash": "5c48008c014ccfb6"
+    },
+    "/images/hub-pages/hajduk/teaser-volcano.webp": {
+      "base": "/images/hub-pages/hajduk/teaser-volcano",
+      "avif": "/images/hub-pages/hajduk/teaser-volcano.avif",
+      "webp": "/images/hub-pages/hajduk/teaser-volcano.webp",
+      "hash": "f49e3f95f4b80c8f"
+    },
+    "/images/hub-pages/lagersalg/hero.avif": {
+      "base": "/images/hub-pages/lagersalg/hero",
+      "avif": "/images/hub-pages/lagersalg/hero.avif",
+      "webp": "/images/hub-pages/lagersalg/hero.webp",
+      "hash": "c8c9b785aefce5a9"
+    },
+    "/images/hub-pages/nordpeis/feature.jpg": {
+      "base": "/images/hub-pages/nordpeis/feature",
+      "avif": "/images/hub-pages/nordpeis/feature.avif",
+      "webp": "/images/hub-pages/nordpeis/feature.webp",
+      "hash": "33f21814aa73e6da",
+      "bytesIn": 58853,
+      "bytesAvif": 3800,
+      "bytesWebp": 5874
+    },
+    "/images/hub-pages/nordpeis/teaser-elementpeis.jpg": {
+      "base": "/images/hub-pages/nordpeis/teaser-elementpeis",
+      "avif": "/images/hub-pages/nordpeis/teaser-elementpeis.avif",
+      "webp": "/images/hub-pages/nordpeis/teaser-elementpeis.webp",
+      "hash": "b732f5686e5eb6dd",
+      "bytesIn": 50789,
+      "bytesAvif": 3498,
+      "bytesWebp": 5960
+    },
+    "/images/hub-pages/nordpeis/teaser-peisinnsats.jpg": {
+      "base": "/images/hub-pages/nordpeis/teaser-peisinnsats",
+      "avif": "/images/hub-pages/nordpeis/teaser-peisinnsats.avif",
+      "webp": "/images/hub-pages/nordpeis/teaser-peisinnsats.webp",
+      "hash": "b6bb45e162816604",
+      "bytesIn": 97851,
+      "bytesAvif": 8673,
+      "bytesWebp": 11558
+    },
+    "/images/campaigns/black-friday-2024/feature.avif": {
+      "base": "/images/campaigns/black-friday-2024/feature",
+      "avif": "/images/campaigns/black-friday-2024/feature.avif",
+      "webp": "/images/campaigns/black-friday-2024/feature.webp",
+      "hash": "765465f640fa930c"
+    },
+    "/images/campaigns/black-friday-2024/feature.webp": {
+      "base": "/images/campaigns/black-friday-2024/feature",
+      "avif": "/images/campaigns/black-friday-2024/feature.avif",
+      "webp": "/images/campaigns/black-friday-2024/feature.webp",
+      "hash": "f7b2ea61fdf6a6d9"
+    },
+    "/images/campaigns/black-friday-2025/hero.avif": {
+      "base": "/images/campaigns/black-friday-2025/hero",
+      "avif": "/images/campaigns/black-friday-2025/hero.avif",
+      "webp": "/images/campaigns/black-friday-2025/hero.webp",
+      "hash": "97b12924468d7f32"
+    },
+    "/images/campaigns/nordpeis-kampanje/campaign-banner.avif": {
+      "base": "/images/campaigns/nordpeis-kampanje/campaign-banner",
+      "avif": "/images/campaigns/nordpeis-kampanje/campaign-banner.avif",
+      "webp": "/images/campaigns/nordpeis-kampanje/campaign-banner.webp",
+      "hash": "186a393aa6a5c5cc"
+    },
+    "/images/campaigns/nordpeis-kampanje/campaign-banner.webp": {
+      "base": "/images/campaigns/nordpeis-kampanje/campaign-banner",
+      "avif": "/images/campaigns/nordpeis-kampanje/campaign-banner.avif",
+      "webp": "/images/campaigns/nordpeis-kampanje/campaign-banner.webp",
+      "hash": "a94f61c96ac9e473"
+    },
+    "/images/campaigns/nordpeis-kampanje/hero.avif": {
+      "base": "/images/campaigns/nordpeis-kampanje/hero",
+      "avif": "/images/campaigns/nordpeis-kampanje/hero.avif",
+      "webp": "/images/campaigns/nordpeis-kampanje/hero.webp",
+      "hash": "44ca1ccfb4505d38"
+    },
+    "/images/campaigns/nordpeis-kampanje/hero.webp": {
+      "base": "/images/campaigns/nordpeis-kampanje/hero",
+      "avif": "/images/campaigns/nordpeis-kampanje/hero.avif",
+      "webp": "/images/campaigns/nordpeis-kampanje/hero.webp",
+      "hash": "689e465e28e0de43"
+    },
+    "/images/campaigns/oranier-pureblack/arena-w-2.0-pureblack-livstilbilde-landing-page.avif": {
+      "base": "/images/campaigns/oranier-pureblack/arena-w-2.0-pureblack-livstilbilde-landing-page",
+      "avif": "/images/campaigns/oranier-pureblack/arena-w-2.0-pureblack-livstilbilde-landing-page.avif",
+      "webp": "/images/campaigns/oranier-pureblack/arena-w-2.0-pureblack-livstilbilde-landing-page.webp",
+      "hash": "c09c0cecdf931a67"
+    },
+    "/images/campaigns/oranier-pureblack/arktis-7-2.0-pureblack-livstilbilde.avif": {
+      "base": "/images/campaigns/oranier-pureblack/arktis-7-2.0-pureblack-livstilbilde",
+      "avif": "/images/campaigns/oranier-pureblack/arktis-7-2.0-pureblack-livstilbilde.avif",
+      "webp": "/images/campaigns/oranier-pureblack/arktis-7-2.0-pureblack-livstilbilde.webp",
+      "hash": "182642aa01a94435"
+    },
+    "/images/campaigns/oranier-pureblack/oranier-arena-pureblack-transparent-1.avif": {
+      "base": "/images/campaigns/oranier-pureblack/oranier-arena-pureblack-transparent-1",
+      "avif": "/images/campaigns/oranier-pureblack/oranier-arena-pureblack-transparent-1.avif",
+      "webp": "/images/campaigns/oranier-pureblack/oranier-arena-pureblack-transparent-1.webp",
+      "hash": "77949e7b5fda51e1"
+    },
+    "/images/campaigns/oranier-pureblack/oranier-arktis-pureblack-transparent-bakgrunn.avif": {
+      "base": "/images/campaigns/oranier-pureblack/oranier-arktis-pureblack-transparent-bakgrunn",
+      "avif": "/images/campaigns/oranier-pureblack/oranier-arktis-pureblack-transparent-bakgrunn.avif",
+      "webp": "/images/campaigns/oranier-pureblack/oranier-arktis-pureblack-transparent-bakgrunn.webp",
+      "hash": "95ecdc742b079247"
+    },
+    "/images/campaigns/oranier-pureblack/oranier-polar-neo-pureblack-transparent-bakgrunn.avif": {
+      "base": "/images/campaigns/oranier-pureblack/oranier-polar-neo-pureblack-transparent-bakgrunn",
+      "avif": "/images/campaigns/oranier-pureblack/oranier-polar-neo-pureblack-transparent-bakgrunn.avif",
+      "webp": "/images/campaigns/oranier-pureblack/oranier-polar-neo-pureblack-transparent-bakgrunn.webp",
+      "hash": "63e7540753a563b3"
+    },
+    "/images/campaigns/oranier-pureblack/oranier-pureblack-peisovn-tegning.avif": {
+      "base": "/images/campaigns/oranier-pureblack/oranier-pureblack-peisovn-tegning",
+      "avif": "/images/campaigns/oranier-pureblack/oranier-pureblack-peisovn-tegning.avif",
+      "webp": "/images/campaigns/oranier-pureblack/oranier-pureblack-peisovn-tegning.webp",
+      "hash": "cccd0dde67de1f51"
+    },
+    "/images/campaigns/usedom-5/feature.avif": {
+      "base": "/images/campaigns/usedom-5/feature",
+      "avif": "/images/campaigns/usedom-5/feature.avif",
+      "webp": "/images/campaigns/usedom-5/feature.webp",
+      "hash": "851e078e3095ab41"
+    },
+    "/images/contact/contact-hero.avif": {
+      "base": "/images/contact/contact-hero",
+      "avif": "/images/contact/contact-hero.avif",
+      "webp": "/images/contact/contact-hero.webp",
+      "hash": "99814d49ad39bfb8"
+    },
+    "/images/homepage/feature-strip-3d-visualization.avif": {
+      "base": "/images/homepage/feature-strip-3d-visualization",
+      "avif": "/images/homepage/feature-strip-3d-visualization.avif",
+      "webp": "/images/homepage/feature-strip-3d-visualization.webp",
+      "hash": "a3c80cc0b7abd0d5"
+    },
+    "/images/homepage/feature-strip-3d-visualization.webp": {
+      "base": "/images/homepage/feature-strip-3d-visualization",
+      "avif": "/images/homepage/feature-strip-3d-visualization.avif",
+      "webp": "/images/homepage/feature-strip-3d-visualization.webp",
+      "hash": "96f83318731aa8d7"
+    },
+    "/images/homepage/feature-strip-installation.avif": {
+      "base": "/images/homepage/feature-strip-installation",
+      "avif": "/images/homepage/feature-strip-installation.avif",
+      "webp": "/images/homepage/feature-strip-installation.webp",
+      "hash": "ab16f320456510a6"
+    },
+    "/images/homepage/feature-strip-installation.webp": {
+      "base": "/images/homepage/feature-strip-installation",
+      "avif": "/images/homepage/feature-strip-installation.avif",
+      "webp": "/images/homepage/feature-strip-installation.webp",
+      "hash": "c43e5b779767a3c9"
+    },
+    "/images/homepage/feature-strip-seasonal-outdoor-fireplace.avif": {
+      "base": "/images/homepage/feature-strip-seasonal-outdoor-fireplace",
+      "avif": "/images/homepage/feature-strip-seasonal-outdoor-fireplace.avif",
+      "webp": "/images/homepage/feature-strip-seasonal-outdoor-fireplace.webp",
+      "hash": "570969ef50040f11"
+    },
+    "/images/homepage/feature-strip-seasonal-outdoor-fireplace.webp": {
+      "base": "/images/homepage/feature-strip-seasonal-outdoor-fireplace",
+      "avif": "/images/homepage/feature-strip-seasonal-outdoor-fireplace.avif",
+      "webp": "/images/homepage/feature-strip-seasonal-outdoor-fireplace.webp",
+      "hash": "56d295bcc3658bda"
+    },
+    "/images/homepage/feature-strip-wood-stove-wide.avif": {
+      "base": "/images/homepage/feature-strip-wood-stove-wide",
+      "avif": "/images/homepage/feature-strip-wood-stove-wide.avif",
+      "webp": "/images/homepage/feature-strip-wood-stove-wide.webp",
+      "hash": "40209f6076efdfbb"
+    },
+    "/images/homepage/feature-strip-wood-stove-wide.webp": {
+      "base": "/images/homepage/feature-strip-wood-stove-wide",
+      "avif": "/images/homepage/feature-strip-wood-stove-wide.avif",
+      "webp": "/images/homepage/feature-strip-wood-stove-wide.webp",
+      "hash": "94c84720a6789810"
+    },
+    "/images/homepage/feature-strip-wood-stove.avif": {
+      "base": "/images/homepage/feature-strip-wood-stove",
+      "avif": "/images/homepage/feature-strip-wood-stove.avif",
+      "webp": "/images/homepage/feature-strip-wood-stove.webp",
+      "hash": "9535d038417d0d44"
+    },
+    "/images/homepage/feature-strip-wood-stove.webp": {
+      "base": "/images/homepage/feature-strip-wood-stove",
+      "avif": "/images/homepage/feature-strip-wood-stove.avif",
+      "webp": "/images/homepage/feature-strip-wood-stove.webp",
+      "hash": "5e31d5991894d61d"
+    },
+    "/images/homepage/hero-fireplace-living-room.avif": {
+      "base": "/images/homepage/hero-fireplace-living-room",
+      "avif": "/images/homepage/hero-fireplace-living-room.avif",
+      "webp": "/images/homepage/hero-fireplace-living-room.webp",
+      "hash": "3ebef862fd42fcdf"
+    },
+    "/images/homepage/hero-fireplace-living-room.webp": {
+      "base": "/images/homepage/hero-fireplace-living-room",
+      "avif": "/images/homepage/hero-fireplace-living-room.avif",
+      "webp": "/images/homepage/hero-fireplace-living-room.webp",
+      "hash": "0dba3489f48e82a8"
+    },
+    "/images/homepage/location/showroom-baerum.avif": {
+      "base": "/images/homepage/location/showroom-baerum",
+      "avif": "/images/homepage/location/showroom-baerum.avif",
+      "webp": "/images/homepage/location/showroom-baerum.webp",
+      "hash": "8e85fe05d7a6552e"
+    },
+    "/images/homepage/location/showroom-baerum.webp": {
+      "base": "/images/homepage/location/showroom-baerum",
+      "avif": "/images/homepage/location/showroom-baerum.avif",
+      "webp": "/images/homepage/location/showroom-baerum.webp",
+      "hash": "5df283edc9a2dad7"
+    },
+    "/images/homepage/offers/chimney-rehabilitation.avif": {
+      "base": "/images/homepage/offers/chimney-rehabilitation",
+      "avif": "/images/homepage/offers/chimney-rehabilitation.avif",
+      "webp": "/images/homepage/offers/chimney-rehabilitation.webp",
+      "hash": "2943fe09bbd370f8"
+    },
+    "/images/homepage/offers/chimney-rehabilitation.webp": {
+      "base": "/images/homepage/offers/chimney-rehabilitation",
+      "avif": "/images/homepage/offers/chimney-rehabilitation.avif",
+      "webp": "/images/homepage/offers/chimney-rehabilitation.webp",
+      "hash": "55a43493660d8177"
+    },
+    "/images/homepage/offers/spare-parts.avif": {
+      "base": "/images/homepage/offers/spare-parts",
+      "avif": "/images/homepage/offers/spare-parts.avif",
+      "webp": "/images/homepage/offers/spare-parts.webp",
+      "hash": "a5cc0cc5de2d287a"
+    },
+    "/images/homepage/offers/spring-campaign.avif": {
+      "base": "/images/homepage/offers/spring-campaign",
+      "avif": "/images/homepage/offers/spring-campaign.avif",
+      "webp": "/images/homepage/offers/spring-campaign.webp",
+      "hash": "9e885957f1fc7999"
+    },
+    "/images/homepage/products/element-fireplace.avif": {
+      "base": "/images/homepage/products/element-fireplace",
+      "avif": "/images/homepage/products/element-fireplace.avif",
+      "webp": "/images/homepage/products/element-fireplace.webp",
+      "hash": "3a2d8873ee0cfe34"
+    },
+    "/images/homepage/products/element-fireplace.webp": {
+      "base": "/images/homepage/products/element-fireplace",
+      "avif": "/images/homepage/products/element-fireplace.avif",
+      "webp": "/images/homepage/products/element-fireplace.webp",
+      "hash": "09f930002eaba09e"
+    },
+    "/images/homepage/products/fireplace-accessories.avif": {
+      "base": "/images/homepage/products/fireplace-accessories",
+      "avif": "/images/homepage/products/fireplace-accessories.avif",
+      "webp": "/images/homepage/products/fireplace-accessories.webp",
+      "hash": "13fe83886ce52443"
+    },
+    "/images/homepage/products/fireplace-accessories.webp": {
+      "base": "/images/homepage/products/fireplace-accessories",
+      "avif": "/images/homepage/products/fireplace-accessories.avif",
+      "webp": "/images/homepage/products/fireplace-accessories.webp",
+      "hash": "8086f130a9f61ec2"
+    },
+    "/images/homepage/products/fireplace-insert.avif": {
+      "base": "/images/homepage/products/fireplace-insert",
+      "avif": "/images/homepage/products/fireplace-insert.avif",
+      "webp": "/images/homepage/products/fireplace-insert.webp",
+      "hash": "e0874e2a1ef80b15"
+    },
+    "/images/homepage/products/fireplace-insert.webp": {
+      "base": "/images/homepage/products/fireplace-insert",
+      "avif": "/images/homepage/products/fireplace-insert.avif",
+      "webp": "/images/homepage/products/fireplace-insert.webp",
+      "hash": "8971941c7b16148e"
+    },
+    "/images/homepage/products/gas-fireplace.avif": {
+      "base": "/images/homepage/products/gas-fireplace",
+      "avif": "/images/homepage/products/gas-fireplace.avif",
+      "webp": "/images/homepage/products/gas-fireplace.webp",
+      "hash": "39bb8151ca9aa906"
+    },
+    "/images/homepage/products/gas-fireplace.webp": {
+      "base": "/images/homepage/products/gas-fireplace",
+      "avif": "/images/homepage/products/gas-fireplace.avif",
+      "webp": "/images/homepage/products/gas-fireplace.webp",
+      "hash": "fc22fadab519b47e"
+    },
+    "/images/homepage/products/outdoor-fireplace.avif": {
+      "base": "/images/homepage/products/outdoor-fireplace",
+      "avif": "/images/homepage/products/outdoor-fireplace.avif",
+      "webp": "/images/homepage/products/outdoor-fireplace.webp",
+      "hash": "25634345c90416a1"
+    },
+    "/images/homepage/products/outdoor-fireplace.webp": {
+      "base": "/images/homepage/products/outdoor-fireplace",
+      "avif": "/images/homepage/products/outdoor-fireplace.avif",
+      "webp": "/images/homepage/products/outdoor-fireplace.webp",
+      "hash": "68c6c8dc3a56d55a"
+    },
+    "/images/homepage/products/wood-stove.avif": {
+      "base": "/images/homepage/products/wood-stove",
+      "avif": "/images/homepage/products/wood-stove.avif",
+      "webp": "/images/homepage/products/wood-stove.webp",
+      "hash": "8ae38db2e66e858f"
+    },
+    "/images/homepage/products/wood-stove.webp": {
+      "base": "/images/homepage/products/wood-stove",
+      "avif": "/images/homepage/products/wood-stove.avif",
+      "webp": "/images/homepage/products/wood-stove.webp",
+      "hash": "c05087777d4d771a"
+    },
+    "/images/hub-pages/aduro/feature.avif": {
+      "base": "/images/hub-pages/aduro/feature",
+      "avif": "/images/hub-pages/aduro/feature.avif",
+      "webp": "/images/hub-pages/aduro/feature.webp",
+      "hash": "e1fbb14191e8834e"
+    },
+    "/images/hub-pages/aduro/feature.webp": {
+      "base": "/images/hub-pages/aduro/feature",
+      "avif": "/images/hub-pages/aduro/feature.avif",
+      "webp": "/images/hub-pages/aduro/feature.webp",
+      "hash": "fd1e5466daeb5e24"
+    },
+    "/images/hub-pages/aduro/hero.avif": {
+      "base": "/images/hub-pages/aduro/hero",
+      "avif": "/images/hub-pages/aduro/hero.avif",
+      "webp": "/images/hub-pages/aduro/hero.webp",
+      "hash": "09709e2cec317440"
+    },
+    "/images/hub-pages/aduro/teaser-1-1.avif": {
+      "base": "/images/hub-pages/aduro/teaser-1-1",
+      "avif": "/images/hub-pages/aduro/teaser-1-1.avif",
+      "webp": "/images/hub-pages/aduro/teaser-1-1.webp",
+      "hash": "3262ecba5875e83c"
+    },
+    "/images/hub-pages/aduro/teaser-9-4-wall.avif": {
+      "base": "/images/hub-pages/aduro/teaser-9-4-wall",
+      "avif": "/images/hub-pages/aduro/teaser-9-4-wall.avif",
+      "webp": "/images/hub-pages/aduro/teaser-9-4-wall.webp",
+      "hash": "d00906af264acf6b"
+    },
+    "/images/hub-pages/aduro/teaser-9-4-wall.webp": {
+      "base": "/images/hub-pages/aduro/teaser-9-4-wall",
+      "avif": "/images/hub-pages/aduro/teaser-9-4-wall.avif",
+      "webp": "/images/hub-pages/aduro/teaser-9-4-wall.webp",
+      "hash": "02b66e4e71707aeb"
+    },
+    "/images/hub-pages/aduro/teaser-9-5.avif": {
+      "base": "/images/hub-pages/aduro/teaser-9-5",
+      "avif": "/images/hub-pages/aduro/teaser-9-5.avif",
+      "webp": "/images/hub-pages/aduro/teaser-9-5.webp",
+      "hash": "6852ca1922c6b64a"
+    },
+    "/images/hub-pages/aduro/teaser-9-5.webp": {
+      "base": "/images/hub-pages/aduro/teaser-9-5",
+      "avif": "/images/hub-pages/aduro/teaser-9-5.avif",
+      "webp": "/images/hub-pages/aduro/teaser-9-5.webp",
+      "hash": "bed74a07504b3a6e"
+    },
+    "/images/hub-pages/dovre-peis/feature.avif": {
+      "base": "/images/hub-pages/dovre-peis/feature",
+      "avif": "/images/hub-pages/dovre-peis/feature.avif",
+      "webp": "/images/hub-pages/dovre-peis/feature.webp",
+      "hash": "44ced3ec90168048"
+    },
+    "/images/hub-pages/dovre-peis/feature.webp": {
+      "base": "/images/hub-pages/dovre-peis/feature",
+      "avif": "/images/hub-pages/dovre-peis/feature.avif",
+      "webp": "/images/hub-pages/dovre-peis/feature.webp",
+      "hash": "1766ff110ca7ddfb"
+    },
+    "/images/hub-pages/dovre-peis/hero.avif": {
+      "base": "/images/hub-pages/dovre-peis/hero",
+      "avif": "/images/hub-pages/dovre-peis/hero.avif",
+      "webp": "/images/hub-pages/dovre-peis/hero.webp",
+      "hash": "4dd3b8a95eecf1ac"
+    },
+    "/images/hub-pages/dovre-peis/teaser-phoenix.avif": {
+      "base": "/images/hub-pages/dovre-peis/teaser-phoenix",
+      "avif": "/images/hub-pages/dovre-peis/teaser-phoenix.avif",
+      "webp": "/images/hub-pages/dovre-peis/teaser-phoenix.webp",
+      "hash": "2a3a494f553f0a50"
+    },
+    "/images/hub-pages/dovre-peis/teaser-phoenix.webp": {
+      "base": "/images/hub-pages/dovre-peis/teaser-phoenix",
+      "avif": "/images/hub-pages/dovre-peis/teaser-phoenix.avif",
+      "webp": "/images/hub-pages/dovre-peis/teaser-phoenix.webp",
+      "hash": "c0faf357217d0372"
+    },
+    "/images/hub-pages/dovre-peis/teaser-saga.avif": {
+      "base": "/images/hub-pages/dovre-peis/teaser-saga",
+      "avif": "/images/hub-pages/dovre-peis/teaser-saga.avif",
+      "webp": "/images/hub-pages/dovre-peis/teaser-saga.webp",
+      "hash": "89bc33f16716e0b1"
+    },
+    "/images/hub-pages/dovre-peis/teaser-saga.webp": {
+      "base": "/images/hub-pages/dovre-peis/teaser-saga",
+      "avif": "/images/hub-pages/dovre-peis/teaser-saga.avif",
+      "webp": "/images/hub-pages/dovre-peis/teaser-saga.webp",
+      "hash": "f889e4725e5d0a1d"
+    },
+    "/images/hub-pages/dovre-peis/teaser-sense.avif": {
+      "base": "/images/hub-pages/dovre-peis/teaser-sense",
+      "avif": "/images/hub-pages/dovre-peis/teaser-sense.avif",
+      "webp": "/images/hub-pages/dovre-peis/teaser-sense.webp",
+      "hash": "26830588412e4783"
+    },
+    "/images/hub-pages/dovre-peis/teaser-sense.webp": {
+      "base": "/images/hub-pages/dovre-peis/teaser-sense",
+      "avif": "/images/hub-pages/dovre-peis/teaser-sense.avif",
+      "webp": "/images/hub-pages/dovre-peis/teaser-sense.webp",
+      "hash": "e585d3f12de80e57"
+    },
+    "/images/hub-pages/element4/feature.avif": {
+      "base": "/images/hub-pages/element4/feature",
+      "avif": "/images/hub-pages/element4/feature.avif",
+      "webp": "/images/hub-pages/element4/feature.webp",
+      "hash": "a6d132b3966d85ae"
+    },
+    "/images/hub-pages/element4/hero.avif": {
+      "base": "/images/hub-pages/element4/hero",
+      "avif": "/images/hub-pages/element4/hero.avif",
+      "webp": "/images/hub-pages/element4/hero.webp",
+      "hash": "1182492218dbe754"
+    },
+    "/images/hub-pages/element4/teaser-bidore.avif": {
+      "base": "/images/hub-pages/element4/teaser-bidore",
+      "avif": "/images/hub-pages/element4/teaser-bidore.avif",
+      "webp": "/images/hub-pages/element4/teaser-bidore.webp",
+      "hash": "14c40fcc068a8393"
+    },
+    "/images/hub-pages/element4/teaser-lucius.avif": {
+      "base": "/images/hub-pages/element4/teaser-lucius",
+      "avif": "/images/hub-pages/element4/teaser-lucius.avif",
+      "webp": "/images/hub-pages/element4/teaser-lucius.webp",
+      "hash": "31116f9657962a52"
+    },
+    "/images/hub-pages/element4/teaser-trisore.avif": {
+      "base": "/images/hub-pages/element4/teaser-trisore",
+      "avif": "/images/hub-pages/element4/teaser-trisore.avif",
+      "webp": "/images/hub-pages/element4/teaser-trisore.webp",
+      "hash": "0e3b932cba62e9da"
+    },
+    "/images/hub-pages/hajduk/feature.avif": {
+      "base": "/images/hub-pages/hajduk/feature",
+      "avif": "/images/hub-pages/hajduk/feature.avif",
+      "webp": "/images/hub-pages/hajduk/feature.webp",
+      "hash": "8f46976f68434723"
+    },
+    "/images/hub-pages/hajduk/hero.avif": {
+      "base": "/images/hub-pages/hajduk/hero",
+      "avif": "/images/hub-pages/hajduk/hero.avif",
+      "webp": "/images/hub-pages/hajduk/hero.webp",
+      "hash": "748fa233f9dbb2c3"
+    },
+    "/images/hub-pages/hajduk/teaser-prisma.avif": {
+      "base": "/images/hub-pages/hajduk/teaser-prisma",
+      "avif": "/images/hub-pages/hajduk/teaser-prisma.avif",
+      "webp": "/images/hub-pages/hajduk/teaser-prisma.webp",
+      "hash": "126b19bc1fcd0919"
+    },
+    "/images/hub-pages/hajduk/teaser-smart.avif": {
+      "base": "/images/hub-pages/hajduk/teaser-smart",
+      "avif": "/images/hub-pages/hajduk/teaser-smart.avif",
+      "webp": "/images/hub-pages/hajduk/teaser-smart.webp",
+      "hash": "dd4abd844380b5b9"
+    },
+    "/images/hub-pages/hajduk/teaser-volcano.avif": {
+      "base": "/images/hub-pages/hajduk/teaser-volcano",
+      "avif": "/images/hub-pages/hajduk/teaser-volcano.avif",
+      "webp": "/images/hub-pages/hajduk/teaser-volcano.webp",
+      "hash": "c083c032f56c2d09"
+    },
+    "/images/hub-pages/lagersalg/hero.webp": {
+      "base": "/images/hub-pages/lagersalg/hero",
+      "avif": "/images/hub-pages/lagersalg/hero.avif",
+      "webp": "/images/hub-pages/lagersalg/hero.webp",
+      "hash": "569cdb4a641ba803"
+    },
+    "/images/hub-pages/nordpeis/feature.avif": {
+      "base": "/images/hub-pages/nordpeis/feature",
+      "avif": "/images/hub-pages/nordpeis/feature.avif",
+      "webp": "/images/hub-pages/nordpeis/feature.webp",
+      "hash": "c9617f2ad839f46d"
+    },
+    "/images/hub-pages/nordpeis/feature.webp": {
+      "base": "/images/hub-pages/nordpeis/feature",
+      "avif": "/images/hub-pages/nordpeis/feature.avif",
+      "webp": "/images/hub-pages/nordpeis/feature.webp",
+      "hash": "0842ac6d0bf1f385"
+    },
+    "/images/hub-pages/nordpeis/teaser-elementpeis.avif": {
+      "base": "/images/hub-pages/nordpeis/teaser-elementpeis",
+      "avif": "/images/hub-pages/nordpeis/teaser-elementpeis.avif",
+      "webp": "/images/hub-pages/nordpeis/teaser-elementpeis.webp",
+      "hash": "d29de63b3730575d"
+    },
+    "/images/hub-pages/nordpeis/teaser-elementpeis.webp": {
+      "base": "/images/hub-pages/nordpeis/teaser-elementpeis",
+      "avif": "/images/hub-pages/nordpeis/teaser-elementpeis.avif",
+      "webp": "/images/hub-pages/nordpeis/teaser-elementpeis.webp",
+      "hash": "04467a583bd59e05"
+    },
+    "/images/hub-pages/nordpeis/teaser-peisinnsats.avif": {
+      "base": "/images/hub-pages/nordpeis/teaser-peisinnsats",
+      "avif": "/images/hub-pages/nordpeis/teaser-peisinnsats.avif",
+      "webp": "/images/hub-pages/nordpeis/teaser-peisinnsats.webp",
+      "hash": "7ad1f237ca8fa6eb"
+    },
+    "/images/hub-pages/nordpeis/teaser-peisinnsats.webp": {
+      "base": "/images/hub-pages/nordpeis/teaser-peisinnsats",
+      "avif": "/images/hub-pages/nordpeis/teaser-peisinnsats.avif",
+      "webp": "/images/hub-pages/nordpeis/teaser-peisinnsats.webp",
+      "hash": "a24b9a5071165571"
+    },
+    "/images/hub-pages/nordpeis/teaser-utepeis.jpg": {
+      "base": "/images/hub-pages/nordpeis/teaser-utepeis",
+      "avif": "/images/hub-pages/nordpeis/teaser-utepeis.avif",
+      "webp": "/images/hub-pages/nordpeis/teaser-utepeis.webp",
+      "hash": "097feb59c4dcaec7",
+      "bytesIn": 54472,
+      "bytesAvif": 3443,
+      "bytesWebp": 5852
+    },
+    "/images/hub-pages/peis/feature.webp": {
+      "base": "/images/hub-pages/peis/feature",
+      "avif": "/images/hub-pages/peis/feature.avif",
+      "webp": "/images/hub-pages/peis/feature.webp",
+      "hash": "b2db998af8bba232"
+    },
+    "/images/hub-pages/peis/hero.webp": {
+      "base": "/images/hub-pages/peis/hero",
+      "avif": "/images/hub-pages/peis/hero.avif",
+      "webp": "/images/hub-pages/peis/hero.webp",
+      "hash": "c7226e78a932e20d"
+    },
+    "/images/hub-pages/peis/teaser-gasspeis.webp": {
+      "base": "/images/hub-pages/peis/teaser-gasspeis",
+      "avif": "/images/hub-pages/peis/teaser-gasspeis.avif",
+      "webp": "/images/hub-pages/peis/teaser-gasspeis.webp",
+      "hash": "a53c5a3ace8b533d"
+    },
+    "/images/hub-pages/peis/teaser-peisinnsats.png": {
+      "base": "/images/hub-pages/peis/teaser-peisinnsats",
+      "avif": "/images/hub-pages/peis/teaser-peisinnsats.avif",
+      "webp": "/images/hub-pages/peis/teaser-peisinnsats.webp",
+      "hash": "56633a1030c931c1",
+      "bytesIn": 787553,
+      "bytesAvif": 58816,
+      "bytesWebp": 68138
+    },
+    "/images/hub-pages/peis/teaser-peisovn.webp": {
+      "base": "/images/hub-pages/peis/teaser-peisovn",
+      "avif": "/images/hub-pages/peis/teaser-peisovn.avif",
+      "webp": "/images/hub-pages/peis/teaser-peisovn.webp",
+      "hash": "03482ef59c03dcb0"
+    },
+    "/images/hub-pages/peisinnsats/brand-dovre.webp": {
+      "base": "/images/hub-pages/peisinnsats/brand-dovre",
+      "avif": "/images/hub-pages/peisinnsats/brand-dovre.avif",
+      "webp": "/images/hub-pages/peisinnsats/brand-dovre.webp",
+      "hash": "4afbe481757adf1d"
+    },
+    "/images/hub-pages/peisinnsats/brand-nordpeis.webp": {
+      "base": "/images/hub-pages/peisinnsats/brand-nordpeis",
+      "avif": "/images/hub-pages/peisinnsats/brand-nordpeis.avif",
+      "webp": "/images/hub-pages/peisinnsats/brand-nordpeis.webp",
+      "hash": "25b27c586068539a"
+    },
+    "/images/hub-pages/peisinnsats/brand-spartherm.avif": {
+      "base": "/images/hub-pages/peisinnsats/brand-spartherm",
+      "avif": "/images/hub-pages/peisinnsats/brand-spartherm.avif",
+      "webp": "/images/hub-pages/peisinnsats/brand-spartherm.webp",
+      "hash": "52f6541f631f43a2"
+    },
+    "/images/hub-pages/peisinnsats/feature-dovre-2575.webp": {
+      "base": "/images/hub-pages/peisinnsats/feature-dovre-2575",
+      "avif": "/images/hub-pages/peisinnsats/feature-dovre-2575.avif",
+      "webp": "/images/hub-pages/peisinnsats/feature-dovre-2575.webp",
+      "aliasOf": "/images/hub-pages/peis/teaser-peisinnsats.webp",
+      "hash": "b641e439ce2d8bf9"
+    },
+    "/images/hub-pages/peisinnsats/hero.webp": {
+      "base": "/images/hub-pages/peisinnsats/hero",
+      "avif": "/images/hub-pages/peisinnsats/hero.avif",
+      "webp": "/images/hub-pages/peisinnsats/hero.webp",
+      "hash": "da938f72b7d02e0d"
+    },
+    "/images/hub-pages/peisovn/brand-aduro.webp": {
+      "base": "/images/hub-pages/peisovn/brand-aduro",
+      "avif": "/images/hub-pages/peisovn/brand-aduro.avif",
+      "webp": "/images/hub-pages/peisovn/brand-aduro.webp",
+      "hash": "f9a7dbb20d6462d1"
+    },
+    "/images/hub-pages/peisovn/brand-dovre.png": {
+      "base": "/images/hub-pages/peisovn/brand-dovre",
+      "avif": "/images/hub-pages/peisovn/brand-dovre.avif",
+      "webp": "/images/hub-pages/peisovn/brand-dovre.webp",
+      "hash": "7e45762ab0bce7f1",
+      "bytesIn": 40708,
+      "bytesAvif": 17769,
+      "bytesWebp": 12538
+    },
+    "/images/hub-pages/peisovn/feature.webp": {
+      "base": "/images/hub-pages/peisovn/feature",
+      "avif": "/images/hub-pages/peisovn/feature.avif",
+      "webp": "/images/hub-pages/peisovn/feature.webp",
+      "hash": "05df2126ddeabc8e"
+    },
+    "/images/hub-pages/peisovn/hero.png": {
+      "base": "/images/hub-pages/peisovn/hero",
+      "avif": "/images/hub-pages/peisovn/hero.avif",
+      "webp": "/images/hub-pages/peisovn/hero.webp",
+      "hash": "25e042e5e8297945",
+      "bytesIn": 220555,
+      "bytesAvif": 55530,
+      "bytesWebp": 75360
+    },
+    "/images/hub-pages/stalpipe/feature.webp": {
+      "base": "/images/hub-pages/stalpipe/feature",
+      "avif": "/images/hub-pages/stalpipe/feature.avif",
+      "webp": "/images/hub-pages/stalpipe/feature.webp",
+      "hash": "246ec408d5fc6d66"
+    },
+    "/images/hub-pages/stalpipe/teaser-isolert.webp": {
+      "base": "/images/hub-pages/stalpipe/teaser-isolert",
+      "avif": "/images/hub-pages/stalpipe/teaser-isolert.avif",
+      "webp": "/images/hub-pages/stalpipe/teaser-isolert.webp",
+      "hash": "59425071101aa926"
+    },
+    "/images/hub-pages/stalpipe/teaser-universal.webp": {
+      "base": "/images/hub-pages/stalpipe/teaser-universal",
+      "avif": "/images/hub-pages/stalpipe/teaser-universal.avif",
+      "webp": "/images/hub-pages/stalpipe/teaser-universal.webp",
+      "hash": "c899e91cccea92a3"
+    },
+    "/images/hub-pages/utepeis/feature.jpg": {
+      "base": "/images/hub-pages/utepeis/feature",
+      "avif": "/images/hub-pages/utepeis/feature.avif",
+      "webp": "/images/hub-pages/utepeis/feature.webp",
+      "hash": "218784e2caa5b700",
+      "bytesIn": 372616,
+      "bytesAvif": 29048,
+      "bytesWebp": 39852
+    },
+    "/images/hub-pages/utepeis/hero.jpg": {
+      "base": "/images/hub-pages/utepeis/hero",
+      "avif": "/images/hub-pages/utepeis/hero.avif",
+      "webp": "/images/hub-pages/utepeis/hero.webp",
+      "hash": "58b0b52ae8d11dda",
+      "bytesIn": 376158,
+      "bytesAvif": 46003,
+      "bytesWebp": 60884
+    },
+    "/images/hub-pages/utepeis/teaser-air.jpg": {
+      "base": "/images/hub-pages/utepeis/teaser-air",
+      "avif": "/images/hub-pages/utepeis/teaser-air.avif",
+      "webp": "/images/hub-pages/utepeis/teaser-air.webp",
+      "hash": "6a2f953195b6a214",
+      "bytesIn": 332005,
+      "bytesAvif": 29143,
+      "bytesWebp": 37186
+    },
+    "/images/hub-pages/utepeis/teaser-fireball.jpg": {
+      "base": "/images/hub-pages/utepeis/teaser-fireball",
+      "avif": "/images/hub-pages/utepeis/teaser-fireball.avif",
+      "webp": "/images/hub-pages/utepeis/teaser-fireball.webp",
+      "hash": "930afc25568b07c8",
+      "bytesIn": 265471,
+      "bytesAvif": 15379,
+      "bytesWebp": 21386
+    },
+    "/images/hub-pages/utepeis/teaser-riviera.webp": {
+      "base": "/images/hub-pages/utepeis/teaser-riviera",
+      "avif": "/images/hub-pages/utepeis/teaser-riviera.avif",
+      "webp": "/images/hub-pages/utepeis/teaser-riviera.webp",
+      "hash": "a7a053c2790cd3f1"
+    },
+    "/images/hub-pages/vedovn/feature.webp": {
+      "base": "/images/hub-pages/vedovn/feature",
+      "avif": "/images/hub-pages/vedovn/feature.avif",
+      "webp": "/images/hub-pages/vedovn/feature.webp",
+      "hash": "ff0e941cb9f57ba0"
+    },
+    "/images/hub-pages/vedovn/hero.webp": {
+      "base": "/images/hub-pages/vedovn/hero",
+      "avif": "/images/hub-pages/vedovn/hero.avif",
+      "webp": "/images/hub-pages/vedovn/hero.webp",
+      "hash": "6c421865c46b229a"
+    },
+    "/images/hub-pages/vedovn/teaser-dovre-logo.png": {
+      "base": "/images/hub-pages/vedovn/teaser-dovre-logo",
+      "avif": "/images/hub-pages/vedovn/teaser-dovre-logo.avif",
+      "webp": "/images/hub-pages/vedovn/teaser-dovre-logo.webp",
+      "hash": "fe54c3f8f5d7bdf1",
+      "bytesIn": 15268,
+      "bytesAvif": 17703,
+      "bytesWebp": 12538
+    },
+    "/images/navbar/merker/aduro.webp": {
+      "base": "/images/navbar/merker/aduro",
+      "avif": "/images/navbar/merker/aduro.avif",
+      "webp": "/images/navbar/merker/aduro.webp",
+      "hash": "4505c68f5797c4d1"
+    },
+    "/images/navbar/merker/christiania-kakkelovner.webp": {
+      "base": "/images/navbar/merker/christiania-kakkelovner",
+      "avif": "/images/navbar/merker/christiania-kakkelovner.avif",
+      "webp": "/images/navbar/merker/christiania-kakkelovner.webp",
+      "hash": "f5f13626824248db"
+    },
+    "/images/navbar/merker/dovre.webp": {
+      "base": "/images/navbar/merker/dovre",
+      "avif": "/images/navbar/merker/dovre.avif",
+      "webp": "/images/navbar/merker/dovre.webp",
+      "hash": "f9c57443edbb80c8"
+    },
+    "/images/navbar/merker/element4.webp": {
+      "base": "/images/navbar/merker/element4",
+      "avif": "/images/navbar/merker/element4.avif",
+      "webp": "/images/navbar/merker/element4.webp",
+      "hash": "c9c7c5de23bf3289"
+    },
+    "/images/navbar/merker/exodraft.webp": {
+      "base": "/images/navbar/merker/exodraft",
+      "avif": "/images/navbar/merker/exodraft.avif",
+      "webp": "/images/navbar/merker/exodraft.webp",
+      "hash": "4a928fce83069543"
+    },
+    "/images/navbar/merker/firefly.webp": {
+      "base": "/images/navbar/merker/firefly",
+      "avif": "/images/navbar/merker/firefly.avif",
+      "webp": "/images/navbar/merker/firefly.webp",
+      "hash": "e46df524426ab7f7"
+    },
+    "/images/navbar/merker/hajduk.webp": {
+      "base": "/images/navbar/merker/hajduk",
+      "avif": "/images/navbar/merker/hajduk.avif",
+      "webp": "/images/navbar/merker/hajduk.webp",
+      "hash": "85d8229cd92fe5b5"
+    },
+    "/images/navbar/merker/heatro.webp": {
+      "base": "/images/navbar/merker/heatro",
+      "avif": "/images/navbar/merker/heatro.avif",
+      "webp": "/images/navbar/merker/heatro.webp",
+      "hash": "f625de9c87ae4776"
+    },
+    "/images/navbar/merker/justus.webp": {
+      "base": "/images/navbar/merker/justus",
+      "avif": "/images/navbar/merker/justus.avif",
+      "webp": "/images/navbar/merker/justus.webp",
+      "hash": "0656e11b758ad3c9"
+    },
+    "/images/navbar/merker/jydepejsen.webp": {
+      "base": "/images/navbar/merker/jydepejsen",
+      "avif": "/images/navbar/merker/jydepejsen.avif",
+      "webp": "/images/navbar/merker/jydepejsen.webp",
+      "hash": "b0d833bf812dc519"
+    },
+    "/images/navbar/merker/nordpeis.webp": {
+      "base": "/images/navbar/merker/nordpeis",
+      "avif": "/images/navbar/merker/nordpeis.avif",
+      "webp": "/images/navbar/merker/nordpeis.webp",
+      "hash": "ac58d998081af9f6"
+    },
+    "/images/navbar/merker/oranier.webp": {
+      "base": "/images/navbar/merker/oranier",
+      "avif": "/images/navbar/merker/oranier.avif",
+      "webp": "/images/navbar/merker/oranier.webp",
+      "hash": "efdc36c749b2d084"
+    },
+    "/images/navbar/merker/ruegg-cheminee.webp": {
+      "base": "/images/navbar/merker/ruegg-cheminee",
+      "avif": "/images/navbar/merker/ruegg-cheminee.avif",
+      "webp": "/images/navbar/merker/ruegg-cheminee.webp",
+      "hash": "4c84d9eff7edf9e2"
+    },
+    "/images/navbar/merker/skantherm.webp": {
+      "base": "/images/navbar/merker/skantherm",
+      "avif": "/images/navbar/merker/skantherm.avif",
+      "webp": "/images/navbar/merker/skantherm.webp",
+      "hash": "470f91fcd1d6c2d6"
+    },
+    "/images/navbar/merker/spartherm.webp": {
+      "base": "/images/navbar/merker/spartherm",
+      "avif": "/images/navbar/merker/spartherm.avif",
+      "webp": "/images/navbar/merker/spartherm.webp",
+      "hash": "aab366f06ed435c6"
+    },
+    "/images/navbar/peis/elementpeis.webp": {
+      "base": "/images/navbar/peis/elementpeis",
+      "avif": "/images/navbar/peis/elementpeis.avif",
+      "webp": "/images/navbar/peis/elementpeis.webp",
+      "hash": "0f5db6d24b8b8863"
+    },
+    "/images/navbar/peis/gasspeis.webp": {
+      "base": "/images/navbar/peis/gasspeis",
+      "avif": "/images/navbar/peis/gasspeis.avif",
+      "webp": "/images/navbar/peis/gasspeis.webp",
+      "hash": "a0ef1f2ebec817da"
+    },
+    "/images/navbar/peis/kakkelovn.webp": {
+      "base": "/images/navbar/peis/kakkelovn",
+      "avif": "/images/navbar/peis/kakkelovn.avif",
+      "webp": "/images/navbar/peis/kakkelovn.webp",
+      "hash": "d1f74508a084a40b"
+    },
+    "/images/navbar/peis/peisinnsats.webp": {
+      "base": "/images/navbar/peis/peisinnsats",
+      "avif": "/images/navbar/peis/peisinnsats.avif",
+      "webp": "/images/navbar/peis/peisinnsats.webp",
+      "hash": "987fae73aad43a85"
+    },
+    "/images/navbar/peis/peisovn.webp": {
+      "base": "/images/navbar/peis/peisovn",
+      "avif": "/images/navbar/peis/peisovn.avif",
+      "webp": "/images/navbar/peis/peisovn.webp",
+      "hash": "82ca3d09c3d886aa"
+    },
+    "/images/navbar/peis/utepeis.webp": {
+      "base": "/images/navbar/peis/utepeis",
+      "avif": "/images/navbar/peis/utepeis.avif",
+      "webp": "/images/navbar/peis/utepeis.webp",
+      "hash": "5415c5f9c1770a7f"
+    },
+    "/images/navbar/peis/vedovn.webp": {
+      "base": "/images/navbar/peis/vedovn",
+      "avif": "/images/navbar/peis/vedovn.avif",
+      "webp": "/images/navbar/peis/vedovn.webp",
+      "hash": "5a5c43e072dc7406"
+    },
+    "/images/navbar/pipe/ror-og-tilkoblingsstuss.webp": {
+      "base": "/images/navbar/pipe/ror-og-tilkoblingsstuss",
+      "avif": "/images/navbar/pipe/ror-og-tilkoblingsstuss.avif",
+      "webp": "/images/navbar/pipe/ror-og-tilkoblingsstuss.webp",
+      "hash": "48e9c25486ac8949"
+    },
+    "/images/navbar/pipe/royksuger.webp": {
+      "base": "/images/navbar/pipe/royksuger",
+      "avif": "/images/navbar/pipe/royksuger.avif",
+      "webp": "/images/navbar/pipe/royksuger.webp",
+      "hash": "7d6e5e7a7f20f603"
+    },
+    "/images/navbar/pipe/stalpipe.webp": {
+      "base": "/images/navbar/pipe/stalpipe",
+      "avif": "/images/navbar/pipe/stalpipe.avif",
+      "webp": "/images/navbar/pipe/stalpipe.webp",
+      "hash": "e2108d20fc481857"
+    },
+    "/images/hub-pages/nordpeis/teaser-utepeis.avif": {
+      "base": "/images/hub-pages/nordpeis/teaser-utepeis",
+      "avif": "/images/hub-pages/nordpeis/teaser-utepeis.avif",
+      "webp": "/images/hub-pages/nordpeis/teaser-utepeis.webp",
+      "hash": "2bd86ab0b232785e"
+    },
+    "/images/hub-pages/nordpeis/teaser-utepeis.webp": {
+      "base": "/images/hub-pages/nordpeis/teaser-utepeis",
+      "avif": "/images/hub-pages/nordpeis/teaser-utepeis.avif",
+      "webp": "/images/hub-pages/nordpeis/teaser-utepeis.webp",
+      "hash": "751427feb9393e80"
+    },
+    "/images/hub-pages/peis/feature.avif": {
+      "base": "/images/hub-pages/peis/feature",
+      "avif": "/images/hub-pages/peis/feature.avif",
+      "webp": "/images/hub-pages/peis/feature.webp",
+      "hash": "cd83ae739f70cc90"
+    },
+    "/images/hub-pages/peis/hero.avif": {
+      "base": "/images/hub-pages/peis/hero",
+      "avif": "/images/hub-pages/peis/hero.avif",
+      "webp": "/images/hub-pages/peis/hero.webp",
+      "hash": "d7a24450158d4259"
+    },
+    "/images/hub-pages/peis/teaser-gasspeis.avif": {
+      "base": "/images/hub-pages/peis/teaser-gasspeis",
+      "avif": "/images/hub-pages/peis/teaser-gasspeis.avif",
+      "webp": "/images/hub-pages/peis/teaser-gasspeis.webp",
+      "hash": "d7620b17e6cb55fe"
+    },
+    "/images/hub-pages/peis/teaser-peisinnsats.avif": {
+      "base": "/images/hub-pages/peis/teaser-peisinnsats",
+      "avif": "/images/hub-pages/peis/teaser-peisinnsats.avif",
+      "webp": "/images/hub-pages/peis/teaser-peisinnsats.webp",
+      "hash": "9c1da7b46c198d18"
+    },
+    "/images/hub-pages/peis/teaser-peisinnsats.webp": {
+      "base": "/images/hub-pages/peis/teaser-peisinnsats",
+      "avif": "/images/hub-pages/peis/teaser-peisinnsats.avif",
+      "webp": "/images/hub-pages/peis/teaser-peisinnsats.webp",
+      "hash": "b641e439ce2d8bf9"
+    },
+    "/images/hub-pages/peis/teaser-peisovn.avif": {
+      "base": "/images/hub-pages/peis/teaser-peisovn",
+      "avif": "/images/hub-pages/peis/teaser-peisovn.avif",
+      "webp": "/images/hub-pages/peis/teaser-peisovn.webp",
+      "hash": "b616cd1fa2d27c85"
+    },
+    "/images/hub-pages/peisinnsats/brand-dovre.avif": {
+      "base": "/images/hub-pages/peisinnsats/brand-dovre",
+      "avif": "/images/hub-pages/peisinnsats/brand-dovre.avif",
+      "webp": "/images/hub-pages/peisinnsats/brand-dovre.webp",
+      "hash": "6a86df5fda3c57f5"
+    },
+    "/images/hub-pages/peisinnsats/brand-nordpeis.avif": {
+      "base": "/images/hub-pages/peisinnsats/brand-nordpeis",
+      "avif": "/images/hub-pages/peisinnsats/brand-nordpeis.avif",
+      "webp": "/images/hub-pages/peisinnsats/brand-nordpeis.webp",
+      "hash": "6113677792876997"
+    },
+    "/images/hub-pages/peisinnsats/brand-spartherm.webp": {
+      "base": "/images/hub-pages/peisinnsats/brand-spartherm",
+      "avif": "/images/hub-pages/peisinnsats/brand-spartherm.avif",
+      "webp": "/images/hub-pages/peisinnsats/brand-spartherm.webp",
+      "hash": "5b80c53607b32d2e"
+    },
+    "/images/hub-pages/peisinnsats/hero.avif": {
+      "base": "/images/hub-pages/peisinnsats/hero",
+      "avif": "/images/hub-pages/peisinnsats/hero.avif",
+      "webp": "/images/hub-pages/peisinnsats/hero.webp",
+      "hash": "fe386dc77960cb67"
+    },
+    "/images/hub-pages/peisovn/brand-aduro.avif": {
+      "base": "/images/hub-pages/peisovn/brand-aduro",
+      "avif": "/images/hub-pages/peisovn/brand-aduro.avif",
+      "webp": "/images/hub-pages/peisovn/brand-aduro.webp",
+      "hash": "8d98de109c653ce0"
+    },
+    "/images/hub-pages/peisovn/brand-dovre.avif": {
+      "base": "/images/hub-pages/peisovn/brand-dovre",
+      "avif": "/images/hub-pages/peisovn/brand-dovre.avif",
+      "webp": "/images/hub-pages/peisovn/brand-dovre.webp",
+      "hash": "c82261fa625b6a34"
+    },
+    "/images/hub-pages/peisovn/brand-dovre.webp": {
+      "base": "/images/hub-pages/peisovn/brand-dovre",
+      "avif": "/images/hub-pages/peisovn/brand-dovre.avif",
+      "webp": "/images/hub-pages/peisovn/brand-dovre.webp",
+      "hash": "7aa4011c79f086bd"
+    },
+    "/images/hub-pages/peisovn/feature.avif": {
+      "base": "/images/hub-pages/peisovn/feature",
+      "avif": "/images/hub-pages/peisovn/feature.avif",
+      "webp": "/images/hub-pages/peisovn/feature.webp",
+      "hash": "7bf96d227332e33e"
+    },
+    "/images/hub-pages/peisovn/hero.avif": {
+      "base": "/images/hub-pages/peisovn/hero",
+      "avif": "/images/hub-pages/peisovn/hero.avif",
+      "webp": "/images/hub-pages/peisovn/hero.webp",
+      "hash": "e4610f8880667bcb"
+    },
+    "/images/hub-pages/stalpipe/feature.avif": {
+      "base": "/images/hub-pages/stalpipe/feature",
+      "avif": "/images/hub-pages/stalpipe/feature.avif",
+      "webp": "/images/hub-pages/stalpipe/feature.webp",
+      "hash": "ccbbef3838429b95"
+    },
+    "/images/hub-pages/stalpipe/teaser-isolert.avif": {
+      "base": "/images/hub-pages/stalpipe/teaser-isolert",
+      "avif": "/images/hub-pages/stalpipe/teaser-isolert.avif",
+      "webp": "/images/hub-pages/stalpipe/teaser-isolert.webp",
+      "hash": "7af2a98930ee242c"
+    },
+    "/images/hub-pages/stalpipe/teaser-universal.avif": {
+      "base": "/images/hub-pages/stalpipe/teaser-universal",
+      "avif": "/images/hub-pages/stalpipe/teaser-universal.avif",
+      "webp": "/images/hub-pages/stalpipe/teaser-universal.webp",
+      "hash": "771633a1c7fb4be8"
+    },
+    "/images/hub-pages/utepeis/feature.avif": {
+      "base": "/images/hub-pages/utepeis/feature",
+      "avif": "/images/hub-pages/utepeis/feature.avif",
+      "webp": "/images/hub-pages/utepeis/feature.webp",
+      "hash": "6c3df1a0a744159a"
+    },
+    "/images/hub-pages/utepeis/feature.webp": {
+      "base": "/images/hub-pages/utepeis/feature",
+      "avif": "/images/hub-pages/utepeis/feature.avif",
+      "webp": "/images/hub-pages/utepeis/feature.webp",
+      "hash": "c81ab50def87bd2b"
+    },
+    "/images/hub-pages/utepeis/hero.avif": {
+      "base": "/images/hub-pages/utepeis/hero",
+      "avif": "/images/hub-pages/utepeis/hero.avif",
+      "webp": "/images/hub-pages/utepeis/hero.webp",
+      "hash": "8eb09e5674e27b8e"
+    },
+    "/images/hub-pages/utepeis/hero.webp": {
+      "base": "/images/hub-pages/utepeis/hero",
+      "avif": "/images/hub-pages/utepeis/hero.avif",
+      "webp": "/images/hub-pages/utepeis/hero.webp",
+      "hash": "cd702e295dfb6940"
+    },
+    "/images/hub-pages/utepeis/teaser-air.avif": {
+      "base": "/images/hub-pages/utepeis/teaser-air",
+      "avif": "/images/hub-pages/utepeis/teaser-air.avif",
+      "webp": "/images/hub-pages/utepeis/teaser-air.webp",
+      "hash": "229d9b8670e2eba8"
+    },
+    "/images/hub-pages/utepeis/teaser-air.webp": {
+      "base": "/images/hub-pages/utepeis/teaser-air",
+      "avif": "/images/hub-pages/utepeis/teaser-air.avif",
+      "webp": "/images/hub-pages/utepeis/teaser-air.webp",
+      "hash": "519a4877e79f306f"
+    },
+    "/images/hub-pages/utepeis/teaser-fireball.avif": {
+      "base": "/images/hub-pages/utepeis/teaser-fireball",
+      "avif": "/images/hub-pages/utepeis/teaser-fireball.avif",
+      "webp": "/images/hub-pages/utepeis/teaser-fireball.webp",
+      "hash": "eda7afa00cb41628"
+    },
+    "/images/hub-pages/utepeis/teaser-fireball.webp": {
+      "base": "/images/hub-pages/utepeis/teaser-fireball",
+      "avif": "/images/hub-pages/utepeis/teaser-fireball.avif",
+      "webp": "/images/hub-pages/utepeis/teaser-fireball.webp",
+      "hash": "12065826827f7e5e"
+    },
+    "/images/hub-pages/utepeis/teaser-riviera.avif": {
+      "base": "/images/hub-pages/utepeis/teaser-riviera",
+      "avif": "/images/hub-pages/utepeis/teaser-riviera.avif",
+      "webp": "/images/hub-pages/utepeis/teaser-riviera.webp",
+      "hash": "a8ceebf73c9c90ac"
+    },
+    "/images/hub-pages/vedovn/feature.avif": {
+      "base": "/images/hub-pages/vedovn/feature",
+      "avif": "/images/hub-pages/vedovn/feature.avif",
+      "webp": "/images/hub-pages/vedovn/feature.webp",
+      "hash": "a8dc336a6921b659"
+    },
+    "/images/hub-pages/vedovn/hero.avif": {
+      "base": "/images/hub-pages/vedovn/hero",
+      "avif": "/images/hub-pages/vedovn/hero.avif",
+      "webp": "/images/hub-pages/vedovn/hero.webp",
+      "hash": "55791765925b5917"
+    },
+    "/images/hub-pages/vedovn/teaser-dovre-logo.avif": {
+      "base": "/images/hub-pages/vedovn/teaser-dovre-logo",
+      "avif": "/images/hub-pages/vedovn/teaser-dovre-logo.avif",
+      "webp": "/images/hub-pages/vedovn/teaser-dovre-logo.webp",
+      "hash": "d6b2566453636fe8"
+    },
+    "/images/navbar/merker/aduro.avif": {
+      "base": "/images/navbar/merker/aduro",
+      "avif": "/images/navbar/merker/aduro.avif",
+      "webp": "/images/navbar/merker/aduro.webp",
+      "hash": "1acf4a95b683c353"
+    },
+    "/images/navbar/merker/christiania-kakkelovner.avif": {
+      "base": "/images/navbar/merker/christiania-kakkelovner",
+      "avif": "/images/navbar/merker/christiania-kakkelovner.avif",
+      "webp": "/images/navbar/merker/christiania-kakkelovner.webp",
+      "hash": "cce6bb16e1a8d387"
+    },
+    "/images/navbar/merker/dovre.avif": {
+      "base": "/images/navbar/merker/dovre",
+      "avif": "/images/navbar/merker/dovre.avif",
+      "webp": "/images/navbar/merker/dovre.webp",
+      "hash": "f15bf792d7ebf3b2"
+    },
+    "/images/navbar/merker/element4.avif": {
+      "base": "/images/navbar/merker/element4",
+      "avif": "/images/navbar/merker/element4.avif",
+      "webp": "/images/navbar/merker/element4.webp",
+      "hash": "8b80dfcfbeba1a32"
+    },
+    "/images/navbar/merker/exodraft.avif": {
+      "base": "/images/navbar/merker/exodraft",
+      "avif": "/images/navbar/merker/exodraft.avif",
+      "webp": "/images/navbar/merker/exodraft.webp",
+      "hash": "4610a850952350bf"
+    },
+    "/images/navbar/merker/firefly.avif": {
+      "base": "/images/navbar/merker/firefly",
+      "avif": "/images/navbar/merker/firefly.avif",
+      "webp": "/images/navbar/merker/firefly.webp",
+      "hash": "7852d8220b2b850f"
+    },
+    "/images/navbar/merker/hajduk.avif": {
+      "base": "/images/navbar/merker/hajduk",
+      "avif": "/images/navbar/merker/hajduk.avif",
+      "webp": "/images/navbar/merker/hajduk.webp",
+      "hash": "c440e5ca8c832de6"
+    },
+    "/images/navbar/merker/heatro.avif": {
+      "base": "/images/navbar/merker/heatro",
+      "avif": "/images/navbar/merker/heatro.avif",
+      "webp": "/images/navbar/merker/heatro.webp",
+      "hash": "b0369566d07f83d7"
+    },
+    "/images/navbar/merker/justus.avif": {
+      "base": "/images/navbar/merker/justus",
+      "avif": "/images/navbar/merker/justus.avif",
+      "webp": "/images/navbar/merker/justus.webp",
+      "hash": "9e7f0bf81ab38c1c"
+    },
+    "/images/navbar/merker/jydepejsen.avif": {
+      "base": "/images/navbar/merker/jydepejsen",
+      "avif": "/images/navbar/merker/jydepejsen.avif",
+      "webp": "/images/navbar/merker/jydepejsen.webp",
+      "hash": "59fe9ac58774928b"
+    },
+    "/images/navbar/merker/nordpeis.avif": {
+      "base": "/images/navbar/merker/nordpeis",
+      "avif": "/images/navbar/merker/nordpeis.avif",
+      "webp": "/images/navbar/merker/nordpeis.webp",
+      "hash": "4c0598992f9365b2"
+    },
+    "/images/navbar/merker/oranier.avif": {
+      "base": "/images/navbar/merker/oranier",
+      "avif": "/images/navbar/merker/oranier.avif",
+      "webp": "/images/navbar/merker/oranier.webp",
+      "hash": "6c3bb9486620c0bf"
+    },
+    "/images/navbar/merker/ruegg-cheminee.avif": {
+      "base": "/images/navbar/merker/ruegg-cheminee",
+      "avif": "/images/navbar/merker/ruegg-cheminee.avif",
+      "webp": "/images/navbar/merker/ruegg-cheminee.webp",
+      "hash": "b272a14b864bb468"
+    },
+    "/images/navbar/merker/skantherm.avif": {
+      "base": "/images/navbar/merker/skantherm",
+      "avif": "/images/navbar/merker/skantherm.avif",
+      "webp": "/images/navbar/merker/skantherm.webp",
+      "hash": "d24a85152660cb27"
+    },
+    "/images/navbar/merker/spartherm.avif": {
+      "base": "/images/navbar/merker/spartherm",
+      "avif": "/images/navbar/merker/spartherm.avif",
+      "webp": "/images/navbar/merker/spartherm.webp",
+      "hash": "a82c735bf3e2d338"
+    },
+    "/images/navbar/peis/elementpeis.avif": {
+      "base": "/images/navbar/peis/elementpeis",
+      "avif": "/images/navbar/peis/elementpeis.avif",
+      "webp": "/images/navbar/peis/elementpeis.webp",
+      "hash": "83c78c8add4d5bc7"
+    },
+    "/images/navbar/peis/gasspeis.avif": {
+      "base": "/images/navbar/peis/gasspeis",
+      "avif": "/images/navbar/peis/gasspeis.avif",
+      "webp": "/images/navbar/peis/gasspeis.webp",
+      "hash": "bce0b5b9dea57427"
+    },
+    "/images/navbar/peis/kakkelovn.avif": {
+      "base": "/images/navbar/peis/kakkelovn",
+      "avif": "/images/navbar/peis/kakkelovn.avif",
+      "webp": "/images/navbar/peis/kakkelovn.webp",
+      "hash": "2a71b1e1005293d4"
+    },
+    "/images/navbar/peis/peisinnsats.avif": {
+      "base": "/images/navbar/peis/peisinnsats",
+      "avif": "/images/navbar/peis/peisinnsats.avif",
+      "webp": "/images/navbar/peis/peisinnsats.webp",
+      "hash": "1d5a5f79cacb43a0"
+    },
+    "/images/navbar/peis/peisovn.avif": {
+      "base": "/images/navbar/peis/peisovn",
+      "avif": "/images/navbar/peis/peisovn.avif",
+      "webp": "/images/navbar/peis/peisovn.webp",
+      "hash": "59da4fcc5830f8e3"
+    },
+    "/images/navbar/peis/utepeis.avif": {
+      "base": "/images/navbar/peis/utepeis",
+      "avif": "/images/navbar/peis/utepeis.avif",
+      "webp": "/images/navbar/peis/utepeis.webp",
+      "hash": "bb83160ee688ccc7"
+    },
+    "/images/navbar/peis/vedovn.avif": {
+      "base": "/images/navbar/peis/vedovn",
+      "avif": "/images/navbar/peis/vedovn.avif",
+      "webp": "/images/navbar/peis/vedovn.webp",
+      "hash": "6335b5d732fd33ab"
+    },
+    "/images/navbar/pipe/ror-og-tilkoblingsstuss.avif": {
+      "base": "/images/navbar/pipe/ror-og-tilkoblingsstuss",
+      "avif": "/images/navbar/pipe/ror-og-tilkoblingsstuss.avif",
+      "webp": "/images/navbar/pipe/ror-og-tilkoblingsstuss.webp",
+      "hash": "667827f52ba8f7bf"
+    },
+    "/images/navbar/pipe/royksuger.avif": {
+      "base": "/images/navbar/pipe/royksuger",
+      "avif": "/images/navbar/pipe/royksuger.avif",
+      "webp": "/images/navbar/pipe/royksuger.webp",
+      "hash": "43f18b12c5a74283"
+    },
+    "/images/navbar/pipe/stalpipe.avif": {
+      "base": "/images/navbar/pipe/stalpipe",
+      "avif": "/images/navbar/pipe/stalpipe.avif",
+      "webp": "/images/navbar/pipe/stalpipe.webp",
+      "hash": "13a9320f83a8550f"
+    },
+    "/images/navbar/reservedeler/asgard.webp": {
+      "base": "/images/navbar/reservedeler/asgard",
+      "avif": "/images/navbar/reservedeler/asgard.avif",
+      "webp": "/images/navbar/reservedeler/asgard.webp",
+      "hash": "fbc378724eecf272"
+    },
+    "/images/navbar/tilbehor/brannmur.webp": {
+      "base": "/images/navbar/tilbehor/brannmur",
+      "avif": "/images/navbar/tilbehor/brannmur.avif",
+      "webp": "/images/navbar/tilbehor/brannmur.webp",
+      "hash": "db9d15b8d180c40f"
+    },
+    "/images/navbar/tilbehor/gulvplate.webp": {
+      "base": "/images/navbar/tilbehor/gulvplate",
+      "avif": "/images/navbar/tilbehor/gulvplate.avif",
+      "webp": "/images/navbar/tilbehor/gulvplate.webp",
+      "hash": "2c0995db9f422fd0"
+    },
+    "/images/navbar/tilbehor/opptenning.webp": {
+      "base": "/images/navbar/tilbehor/opptenning",
+      "avif": "/images/navbar/tilbehor/opptenning.avif",
+      "webp": "/images/navbar/tilbehor/opptenning.webp",
+      "hash": "20bd8cfc2513a560"
+    },
+    "/images/navbar/tilbehor/rengjoring.webp": {
+      "base": "/images/navbar/tilbehor/rengjoring",
+      "avif": "/images/navbar/tilbehor/rengjoring.avif",
+      "webp": "/images/navbar/tilbehor/rengjoring.webp",
+      "hash": "8195e279548b36b7"
+    },
+    "/images/navbar/tilbehor/ventiler.webp": {
+      "base": "/images/navbar/tilbehor/ventiler",
+      "avif": "/images/navbar/tilbehor/ventiler.avif",
+      "webp": "/images/navbar/tilbehor/ventiler.webp",
+      "hash": "374dd377bdd399b2"
+    },
+    "/images/opengraph/home-hero-og.png": {
+      "base": "/images/opengraph/home-hero-og",
+      "avif": "/images/opengraph/home-hero-og.avif",
+      "webp": "/images/opengraph/home-hero-og.webp",
+      "hash": "87d8ff6da790c5c3",
+      "bytesIn": 510304,
+      "bytesAvif": 11336,
+      "bytesWebp": 15706
+    },
+    "/images/populaere-sok/aduro.jpg": {
+      "base": "/images/populaere-sok/aduro",
+      "avif": "/images/populaere-sok/aduro.avif",
+      "webp": "/images/populaere-sok/aduro.webp",
+      "hash": "5e86ac94578da565",
+      "bytesIn": 293406,
+      "bytesAvif": 23279,
+      "bytesWebp": 30616
+    },
+    "/images/populaere-sok/dovre-peis.webp": {
+      "base": "/images/populaere-sok/dovre-peis",
+      "avif": "/images/populaere-sok/dovre-peis.avif",
+      "webp": "/images/populaere-sok/dovre-peis.webp",
+      "hash": "4c6645f51d7a6335"
+    },
+    "/images/populaere-sok/element4.webp": {
+      "base": "/images/populaere-sok/element4",
+      "avif": "/images/populaere-sok/element4.avif",
+      "webp": "/images/populaere-sok/element4.webp",
+      "hash": "b4dab0fef040595c"
+    },
+    "/images/populaere-sok/nordpeis.jpg": {
+      "base": "/images/populaere-sok/nordpeis",
+      "avif": "/images/populaere-sok/nordpeis.avif",
+      "webp": "/images/populaere-sok/nordpeis.webp",
+      "hash": "8c1e46e2527c3297",
+      "bytesIn": 249415,
+      "bytesAvif": 19934,
+      "bytesWebp": 30884
+    },
+    "/images/populaere-sok/peis.webp": {
+      "base": "/images/populaere-sok/peis",
+      "avif": "/images/populaere-sok/peis.avif",
+      "webp": "/images/populaere-sok/peis.webp",
+      "hash": "427290bfce4d462f"
+    },
+    "/images/populaere-sok/peisinnsats.webp": {
+      "base": "/images/populaere-sok/peisinnsats",
+      "avif": "/images/populaere-sok/peisinnsats.avif",
+      "webp": "/images/populaere-sok/peisinnsats.webp",
+      "hash": "a34af88204bc366d"
+    },
+    "/images/populaere-sok/peisovn.jpg": {
+      "base": "/images/populaere-sok/peisovn",
+      "avif": "/images/populaere-sok/peisovn.avif",
+      "webp": "/images/populaere-sok/peisovn.webp",
+      "hash": "001d6dade01aab52",
+      "bytesIn": 279400,
+      "bytesAvif": 21630,
+      "bytesWebp": 29356
+    },
+    "/images/populaere-sok/utepeis.jpg": {
+      "base": "/images/populaere-sok/utepeis",
+      "avif": "/images/populaere-sok/utepeis.avif",
+      "webp": "/images/populaere-sok/utepeis.webp",
+      "hash": "1afb47e7fe1020a9",
+      "bytesIn": 305429,
+      "bytesAvif": 29853,
+      "bytesWebp": 44164
+    },
+    "/images/populaere-sok/vedovn.webp": {
+      "base": "/images/populaere-sok/vedovn",
+      "avif": "/images/populaere-sok/vedovn.avif",
+      "webp": "/images/populaere-sok/vedovn.webp",
+      "hash": "bc452fe35bc7655b"
+    },
+    "/images/products/spar-flame-icon.png": {
+      "base": "/images/products/sale-flame-icon",
+      "avif": "/images/products/sale-flame-icon.avif",
+      "webp": "/images/products/sale-flame-icon.webp",
+      "hash": "f1f2a9e8bd76614a",
+      "bytesIn": 983,
+      "bytesAvif": 563,
+      "bytesWebp": 284
+    },
+    "/images/resurs-bank/hero.png": {
+      "base": "/images/resurs-bank/financing-hero",
+      "avif": "/images/resurs-bank/financing-hero.avif",
+      "webp": "/images/resurs-bank/financing-hero.webp",
+      "hash": "03554f76982fc4b9",
+      "bytesIn": 56241,
+      "bytesAvif": 6895,
+      "bytesWebp": 12602
+    },
+    "/images/services/montering/gallery-01.webp": {
+      "base": "/images/services/montering/gallery-01",
+      "avif": "/images/services/montering/gallery-01.avif",
+      "webp": "/images/services/montering/gallery-01.webp",
+      "hash": "cc1a5d984aa5cd4b"
+    },
+    "/images/services/montering/gallery-02.webp": {
+      "base": "/images/services/montering/gallery-02",
+      "avif": "/images/services/montering/gallery-02.avif",
+      "webp": "/images/services/montering/gallery-02.webp",
+      "hash": "ce7bc2f11180014d"
+    },
+    "/images/services/montering/hero.webp": {
+      "base": "/images/services/montering/hero",
+      "avif": "/images/services/montering/hero.avif",
+      "webp": "/images/services/montering/hero.webp",
+      "hash": "f5f9207889d3de48"
+    },
+    "/images/services/piperehabilitering/gallery-01.webp": {
+      "base": "/images/services/piperehabilitering/gallery-01",
+      "avif": "/images/services/piperehabilitering/gallery-01.avif",
+      "webp": "/images/services/piperehabilitering/gallery-01.webp",
+      "hash": "d3c58013e9962883"
+    },
+    "/images/services/piperehabilitering/gallery-02.webp": {
+      "base": "/images/services/piperehabilitering/gallery-02",
+      "avif": "/images/services/piperehabilitering/gallery-02.avif",
+      "webp": "/images/services/piperehabilitering/gallery-02.webp",
+      "hash": "c2e1ec6d1f11fd97"
+    },
+    "/images/services/piperehabilitering/gallery-03.webp": {
+      "base": "/images/services/piperehabilitering/gallery-03",
+      "avif": "/images/services/piperehabilitering/gallery-03.avif",
+      "webp": "/images/services/piperehabilitering/gallery-03.webp",
+      "hash": "c27853590b69864a"
+    },
+    "/images/services/piperehabilitering/hero.webp": {
+      "base": "/images/services/piperehabilitering/hero",
+      "avif": "/images/services/piperehabilitering/hero.avif",
+      "webp": "/images/services/piperehabilitering/hero.webp",
+      "hash": "e0479ead039db196"
+    },
+    "/images/shared/offer-modal/offer-modal-side.webp": {
+      "base": "/images/shared/offer-modal/offer-modal-side",
+      "avif": "/images/shared/offer-modal/offer-modal-side.avif",
+      "webp": "/images/shared/offer-modal/offer-modal-side.webp",
+      "hash": "c3d1f25514c9ea52"
+    },
+    "/peisbutikken-logo-on-dark.webp": {
+      "base": "/peisbutikken-logo-on-dark",
+      "avif": "/peisbutikken-logo-on-dark.avif",
+      "webp": "/peisbutikken-logo-on-dark.webp",
+      "hash": "0c8f0c829936ee41"
+    },
+    "/peisbutikken-logo-on-light.webp": {
+      "base": "/peisbutikken-logo-on-light",
+      "avif": "/peisbutikken-logo-on-light.avif",
+      "webp": "/peisbutikken-logo-on-light.webp",
+      "hash": "bf9b38557c00c320"
+    },
+    "/images/navbar/reservedeler/asgard.avif": {
+      "base": "/images/navbar/reservedeler/asgard",
+      "avif": "/images/navbar/reservedeler/asgard.avif",
+      "webp": "/images/navbar/reservedeler/asgard.webp",
+      "hash": "20f81923170ac6d2"
+    },
+    "/images/navbar/tilbehor/brannmur.avif": {
+      "base": "/images/navbar/tilbehor/brannmur",
+      "avif": "/images/navbar/tilbehor/brannmur.avif",
+      "webp": "/images/navbar/tilbehor/brannmur.webp",
+      "hash": "fa78f57f163b7c82"
+    },
+    "/images/navbar/tilbehor/gulvplate.avif": {
+      "base": "/images/navbar/tilbehor/gulvplate",
+      "avif": "/images/navbar/tilbehor/gulvplate.avif",
+      "webp": "/images/navbar/tilbehor/gulvplate.webp",
+      "hash": "cd2f3799c6ff357d"
+    },
+    "/images/navbar/tilbehor/opptenning.avif": {
+      "base": "/images/navbar/tilbehor/opptenning",
+      "avif": "/images/navbar/tilbehor/opptenning.avif",
+      "webp": "/images/navbar/tilbehor/opptenning.webp",
+      "hash": "1e40e9bc261ab517"
+    },
+    "/images/navbar/tilbehor/rengjoring.avif": {
+      "base": "/images/navbar/tilbehor/rengjoring",
+      "avif": "/images/navbar/tilbehor/rengjoring.avif",
+      "webp": "/images/navbar/tilbehor/rengjoring.webp",
+      "hash": "4c46c2e65240b448"
+    },
+    "/images/navbar/tilbehor/ventiler.avif": {
+      "base": "/images/navbar/tilbehor/ventiler",
+      "avif": "/images/navbar/tilbehor/ventiler.avif",
+      "webp": "/images/navbar/tilbehor/ventiler.webp",
+      "hash": "5a48c5dc3ed18247"
+    },
+    "/images/opengraph/home-hero-og.avif": {
+      "base": "/images/opengraph/home-hero-og",
+      "avif": "/images/opengraph/home-hero-og.avif",
+      "webp": "/images/opengraph/home-hero-og.webp",
+      "hash": "8b435fbef1d19120"
+    },
+    "/images/opengraph/home-hero-og.webp": {
+      "base": "/images/opengraph/home-hero-og",
+      "avif": "/images/opengraph/home-hero-og.avif",
+      "webp": "/images/opengraph/home-hero-og.webp",
+      "hash": "85d5c318581fa743"
+    },
+    "/images/populaere-sok/aduro.avif": {
+      "base": "/images/populaere-sok/aduro",
+      "avif": "/images/populaere-sok/aduro.avif",
+      "webp": "/images/populaere-sok/aduro.webp",
+      "hash": "a10c0ef0465bd752"
+    },
+    "/images/populaere-sok/aduro.webp": {
+      "base": "/images/populaere-sok/aduro",
+      "avif": "/images/populaere-sok/aduro.avif",
+      "webp": "/images/populaere-sok/aduro.webp",
+      "hash": "6ed3f8ab079307ee"
+    },
+    "/images/populaere-sok/dovre-peis.avif": {
+      "base": "/images/populaere-sok/dovre-peis",
+      "avif": "/images/populaere-sok/dovre-peis.avif",
+      "webp": "/images/populaere-sok/dovre-peis.webp",
+      "hash": "6dbc4e3577a106e3"
+    },
+    "/images/populaere-sok/element4.avif": {
+      "base": "/images/populaere-sok/element4",
+      "avif": "/images/populaere-sok/element4.avif",
+      "webp": "/images/populaere-sok/element4.webp",
+      "hash": "e08c62ad47b58d40"
+    },
+    "/images/populaere-sok/nordpeis.avif": {
+      "base": "/images/populaere-sok/nordpeis",
+      "avif": "/images/populaere-sok/nordpeis.avif",
+      "webp": "/images/populaere-sok/nordpeis.webp",
+      "hash": "d47b4449d81ce19a"
+    },
+    "/images/populaere-sok/nordpeis.webp": {
+      "base": "/images/populaere-sok/nordpeis",
+      "avif": "/images/populaere-sok/nordpeis.avif",
+      "webp": "/images/populaere-sok/nordpeis.webp",
+      "hash": "e87e657000d90f21"
+    },
+    "/images/populaere-sok/peis.avif": {
+      "base": "/images/populaere-sok/peis",
+      "avif": "/images/populaere-sok/peis.avif",
+      "webp": "/images/populaere-sok/peis.webp",
+      "hash": "5d262e5c19b87b69"
+    },
+    "/images/populaere-sok/peisinnsats.avif": {
+      "base": "/images/populaere-sok/peisinnsats",
+      "avif": "/images/populaere-sok/peisinnsats.avif",
+      "webp": "/images/populaere-sok/peisinnsats.webp",
+      "hash": "08132db3f6a2286e"
+    },
+    "/images/populaere-sok/peisovn.avif": {
+      "base": "/images/populaere-sok/peisovn",
+      "avif": "/images/populaere-sok/peisovn.avif",
+      "webp": "/images/populaere-sok/peisovn.webp",
+      "hash": "1ffd898bcf1d6586"
+    },
+    "/images/populaere-sok/peisovn.webp": {
+      "base": "/images/populaere-sok/peisovn",
+      "avif": "/images/populaere-sok/peisovn.avif",
+      "webp": "/images/populaere-sok/peisovn.webp",
+      "hash": "3356dced8b90956f"
+    },
+    "/images/populaere-sok/utepeis.avif": {
+      "base": "/images/populaere-sok/utepeis",
+      "avif": "/images/populaere-sok/utepeis.avif",
+      "webp": "/images/populaere-sok/utepeis.webp",
+      "hash": "c8e2a940e34bccf8"
+    },
+    "/images/populaere-sok/utepeis.webp": {
+      "base": "/images/populaere-sok/utepeis",
+      "avif": "/images/populaere-sok/utepeis.avif",
+      "webp": "/images/populaere-sok/utepeis.webp",
+      "hash": "55a4efa268a80cb7"
+    },
+    "/images/populaere-sok/vedovn.avif": {
+      "base": "/images/populaere-sok/vedovn",
+      "avif": "/images/populaere-sok/vedovn.avif",
+      "webp": "/images/populaere-sok/vedovn.webp",
+      "hash": "71558ef1da0a4d65"
+    },
+    "/images/products/sale-flame-icon.avif": {
+      "base": "/images/products/sale-flame-icon",
+      "avif": "/images/products/sale-flame-icon.avif",
+      "webp": "/images/products/sale-flame-icon.webp",
+      "hash": "d042cc8eaa15c2f0"
+    },
+    "/images/products/sale-flame-icon.webp": {
+      "base": "/images/products/sale-flame-icon",
+      "avif": "/images/products/sale-flame-icon.avif",
+      "webp": "/images/products/sale-flame-icon.webp",
+      "hash": "dbe45a11c8403958"
+    },
+    "/images/resurs-bank/financing-hero.avif": {
+      "base": "/images/resurs-bank/financing-hero",
+      "avif": "/images/resurs-bank/financing-hero.avif",
+      "webp": "/images/resurs-bank/financing-hero.webp",
+      "hash": "c6c688a1c2c4ee74"
+    },
+    "/images/resurs-bank/financing-hero.webp": {
+      "base": "/images/resurs-bank/financing-hero",
+      "avif": "/images/resurs-bank/financing-hero.avif",
+      "webp": "/images/resurs-bank/financing-hero.webp",
+      "hash": "7d1ae1159b3a90f9"
+    },
+    "/images/services/montering/gallery-01.avif": {
+      "base": "/images/services/montering/gallery-01",
+      "avif": "/images/services/montering/gallery-01.avif",
+      "webp": "/images/services/montering/gallery-01.webp",
+      "hash": "243690f29e27ac05"
+    },
+    "/images/services/montering/gallery-02.avif": {
+      "base": "/images/services/montering/gallery-02",
+      "avif": "/images/services/montering/gallery-02.avif",
+      "webp": "/images/services/montering/gallery-02.webp",
+      "hash": "c0e838f74f15e9f8"
+    },
+    "/images/services/montering/hero.avif": {
+      "base": "/images/services/montering/hero",
+      "avif": "/images/services/montering/hero.avif",
+      "webp": "/images/services/montering/hero.webp",
+      "hash": "5eeddf575f14a310"
+    },
+    "/images/services/piperehabilitering/gallery-01.avif": {
+      "base": "/images/services/piperehabilitering/gallery-01",
+      "avif": "/images/services/piperehabilitering/gallery-01.avif",
+      "webp": "/images/services/piperehabilitering/gallery-01.webp",
+      "hash": "04a2f3a261a97b8f"
+    },
+    "/images/services/piperehabilitering/gallery-02.avif": {
+      "base": "/images/services/piperehabilitering/gallery-02",
+      "avif": "/images/services/piperehabilitering/gallery-02.avif",
+      "webp": "/images/services/piperehabilitering/gallery-02.webp",
+      "hash": "2c7978c892bf4836"
+    },
+    "/images/services/piperehabilitering/gallery-03.avif": {
+      "base": "/images/services/piperehabilitering/gallery-03",
+      "avif": "/images/services/piperehabilitering/gallery-03.avif",
+      "webp": "/images/services/piperehabilitering/gallery-03.webp",
+      "hash": "4eccbd6f04ec2f40"
+    },
+    "/images/services/piperehabilitering/hero.avif": {
+      "base": "/images/services/piperehabilitering/hero",
+      "avif": "/images/services/piperehabilitering/hero.avif",
+      "webp": "/images/services/piperehabilitering/hero.webp",
+      "hash": "14135880abdf5f52"
+    },
+    "/images/shared/offer-modal/offer-modal-side.avif": {
+      "base": "/images/shared/offer-modal/offer-modal-side",
+      "avif": "/images/shared/offer-modal/offer-modal-side.avif",
+      "webp": "/images/shared/offer-modal/offer-modal-side.webp",
+      "hash": "3b26a13cae3d1c7f"
+    },
+    "/peisbutikken-logo-on-dark.avif": {
+      "base": "/peisbutikken-logo-on-dark",
+      "avif": "/peisbutikken-logo-on-dark.avif",
+      "webp": "/peisbutikken-logo-on-dark.webp",
+      "hash": "98fa5efbcdef7839"
+    },
+    "/peisbutikken-logo-on-light.avif": {
+      "base": "/peisbutikken-logo-on-light",
+      "avif": "/peisbutikken-logo-on-light.avif",
+      "webp": "/peisbutikken-logo-on-light.webp",
+      "hash": "069dba2a817c6597"
+    },
+    "/images/campaigns/usedom-5/hero.avif": {
+      "base": "/images/campaigns/usedom-5/hero",
+      "avif": "/images/campaigns/usedom-5/hero.avif",
+      "webp": "/images/campaigns/usedom-5/hero.webp",
+      "aliasOf": "/images/campaigns/usedom-5/feature.avif",
+      "hash": "851e078e3095ab41"
+    },
+    "/images/hub-pages/peisinnsats/feature-dovre-2575.avif": {
+      "base": "/images/hub-pages/peisinnsats/feature-dovre-2575",
+      "avif": "/images/hub-pages/peisinnsats/feature-dovre-2575.avif",
+      "webp": "/images/hub-pages/peisinnsats/feature-dovre-2575.webp",
+      "aliasOf": "/images/hub-pages/peis/teaser-peisinnsats.avif",
+      "hash": "9c1da7b46c198d18"
+    },
+    "/images/hub-pages/peisovn/brand-nordpeis.avif": {
+      "base": "/images/hub-pages/peisovn/brand-nordpeis",
+      "avif": "/images/hub-pages/peisovn/brand-nordpeis.avif",
+      "webp": "/images/hub-pages/peisovn/brand-nordpeis.webp",
+      "aliasOf": "/images/hub-pages/peisinnsats/brand-nordpeis.avif",
+      "hash": "6113677792876997"
+    },
+    "/images/hub-pages/stalpipe/teaser-ventilert.avif": {
+      "base": "/images/hub-pages/stalpipe/teaser-ventilert",
+      "avif": "/images/hub-pages/stalpipe/teaser-ventilert.avif",
+      "webp": "/images/hub-pages/stalpipe/teaser-ventilert.webp",
+      "aliasOf": "/images/hub-pages/peis/feature.avif",
+      "hash": "cd83ae739f70cc90"
+    },
+    "/images/hub-pages/vedovn/teaser-dovre-logo.webp": {
+      "base": "/images/hub-pages/vedovn/teaser-dovre-logo",
+      "avif": "/images/hub-pages/vedovn/teaser-dovre-logo.avif",
+      "webp": "/images/hub-pages/vedovn/teaser-dovre-logo.webp",
+      "aliasOf": "/images/hub-pages/peisovn/brand-dovre.webp",
+      "hash": "7aa4011c79f086bd"
+    },
+    "/images/navbar/reservedeler/aduro.avif": {
+      "base": "/images/navbar/reservedeler/aduro",
+      "avif": "/images/navbar/reservedeler/aduro.avif",
+      "webp": "/images/navbar/reservedeler/aduro.webp",
+      "aliasOf": "/images/navbar/merker/aduro.avif",
+      "hash": "1acf4a95b683c353"
+    },
+    "/images/navbar/reservedeler/dovre.avif": {
+      "base": "/images/navbar/reservedeler/dovre",
+      "avif": "/images/navbar/reservedeler/dovre.avif",
+      "webp": "/images/navbar/reservedeler/dovre.webp",
+      "aliasOf": "/images/navbar/merker/dovre.avif",
+      "hash": "f15bf792d7ebf3b2"
+    },
+    "/images/navbar/reservedeler/jydepejsen.avif": {
+      "base": "/images/navbar/reservedeler/jydepejsen",
+      "avif": "/images/navbar/reservedeler/jydepejsen.avif",
+      "webp": "/images/navbar/reservedeler/jydepejsen.webp",
+      "aliasOf": "/images/navbar/merker/jydepejsen.avif",
+      "hash": "59fe9ac58774928b"
+    },
+    "/images/navbar/reservedeler/nordpeis.avif": {
+      "base": "/images/navbar/reservedeler/nordpeis",
+      "avif": "/images/navbar/reservedeler/nordpeis.avif",
+      "webp": "/images/navbar/reservedeler/nordpeis.webp",
+      "aliasOf": "/images/navbar/merker/nordpeis.avif",
+      "hash": "4c0598992f9365b2"
+    },
+    "/images/navbar/tilbehor/peistilbehor.avif": {
+      "base": "/images/navbar/tilbehor/peistilbehor",
+      "avif": "/images/navbar/tilbehor/peistilbehor.avif",
+      "webp": "/images/navbar/tilbehor/peistilbehor.webp",
+      "aliasOf": "/images/homepage/products/fireplace-accessories.avif",
+      "hash": "13fe83886ce52443"
+    },
+    "/images/populaere-sok/hajduk.avif": {
+      "base": "/images/populaere-sok/hajduk",
+      "avif": "/images/populaere-sok/hajduk.avif",
+      "webp": "/images/populaere-sok/hajduk.webp",
+      "aliasOf": "/images/hub-pages/hajduk/feature.avif",
+      "hash": "8f46976f68434723"
+    }
+  },
+  "deletedWithoutConvert": [
+    "images/homepage/feature-strip-01-sesongstilbud-contura.png",
+    "images/homepage/feature-strip-01-sesongstilbud-wide.png",
+    "images/homepage/feature-strip-01-sesongstilbud.jpg",
+    "images/homepage/feature-strip-01-sesongstilbud.png",
+    "images/homepage/offers/spring-campaign.webp",
+    "images/hub-pages/peisovn/hero.webp",
+    "images/services/montering/gallery-03.webp",
+    "images/site/google-g-colored.png",
+    "images/site/google-mark-3d.png",
+    "images/site/google-mark.png"
+  ],
+  "stats": {
+    "converted": 262,
+    "skipped": 1,
+    "copied": 21,
+    "deleted": 2,
+    "dryRun": false
+  },
+  "failed": [
+    {
+      "rel": "images/navbar/placeholder.webp",
+      "error": "too-small-for-tinify"
+    },
+    {
+      "rel": "images/navbar/placeholder.webp",
+      "error": "too-small-for-tinify"
+    }
+  ]
+}

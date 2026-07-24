@@ -1,0 +1,56 @@
+---
+description: Deploy WordPress PHP snippets via Code Snippets API (never mu-plugins)
+alwaysApply: true
+---
+
+# WordPress snippets: Code Snippets API only
+
+## Hard conventions
+
+1. **Never** install or recommend these as mu-plugins.
+2. **Always** use the **Code Snippets** plugin on WordPress.
+3. When the user gives permission (or asks to ship/sync a snippet change), **the agent updates live snippets via the Code Snippets REST API** — do not tell the user to paste manually as the default path.
+4. Repo source of truth: `docs/wordpress/snippets/*.php` + inventory `docs/wordpress/SNIPPETS.md`.
+
+## Auth (local)
+
+From `.env.local` (gitignored):
+
+- `WP_USER` — WordPress admin username
+- `WP_APP_PASSWORD` — Application Password (spaces OK; strip spaces for Basic auth)
+
+Base: `https://peisbutikken.no/wp-json/code-snippets/v1`
+
+Verify auth: `GET /wp-json/wp/v2/users/me` with Basic auth → 200.
+
+## Deploy procedure
+
+1. Edit the PHP file under `docs/wordpress/snippets/`.
+2. Bump `Version:` + `PB_*_SNIPPET_VERSION` + changelog + `docs/wordpress/SNIPPETS.md` inventory.
+3. Run `php -l` on the file (must be clean) before PUT.
+4. Strip leading `<?php` from the code payload (Code Snippets wraps PHP).
+5. `GET /snippets/{id}` — confirm name; note `active` / `scope` / `priority`.
+6. `PUT /snippets/{id}` with JSON `{ name, code, scope, active: true, priority }` (preserve name/scope/priority).
+7. Confirm response `active: true`. If `active: false`, fix PHP errors and redeploy — do not leave auth/critical routes down.
+8. Verify health when available, e.g. `GET https://peisbutikken.no/wp-json/pb/v1/auth/health` → `snippetVersion` matches repo.
+
+## Known snippet IDs (peisbutikken.no)
+
+| Repo file | Live ID | Name |
+| --- | --- | --- |
+| `wordpress-pb-auth.php` | **58** | PB Auth endpoints |
+| `wordpress-pb-graphql-auth-bridge.php` | 67 | (GraphQL auth bridge) |
+| `wordpress-pb-side-cart-order-bumps.php` | 64 | PB Side cart order bumps |
+| `wordpress-pb-order-complete-signal.php` | **72** | PB Order complete signal (headless cart clear) |
+| `wordpress-pb-headless-cart-sync.php` | 54 | Legacy cart sync — do not dual-enable with 64 |
+| `wordpress-pb-shipping-quote.php` | (see SNIPPETS / list API) | |
+| `wordpress-pb-reservedeler-items.php` | (see SNIPPETS / list API) | |
+| Others | List via API if unsure | Prefer matching by snippet `name` |
+
+If ID unknown: `GET …/snippets?per_page=100` and match by name.
+
+## Do not
+
+- Prefer mu-plugin install paths in new docs or snippet headers.
+- Leave a critical snippet inactive after a failed deploy — rollback or fix immediately.
+- Commit `.env.local` or print Application Passwords in chat.

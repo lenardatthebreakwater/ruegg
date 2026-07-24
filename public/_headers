@@ -1,0 +1,35 @@
+# Cloudflare Workers Static Assets header rules.
+# Copied into the OpenNext assets output on deploy.
+# Default without these rules is: Cache-Control: public, max-age=0, must-revalidate
+# (forces a revalidation round-trip on every repeat visit).
+#
+# HTML / RSC document Cache-Control is NOT set here — Static Assets do not serve
+# those. The Worker entry (cloudflare-worker.ts) forces browser revalidation so
+# a stale shell cannot reference pruned buildId chunks after R2 KEEP_BUILD_IDS prune.
+
+# Fingerprinted Next build output — safe to cache forever.
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Marketing media in /public (not content-hashed). Long TTL for PageSpeed /
+# repeat visits. When replacing a file, rename it (or purge the URL) so
+# browsers pick up the new asset — do not rely on overwriting the same path.
+/images/*
+  Cache-Control: public, max-age=31536000
+
+/videos/*
+  Cache-Control: public, max-age=31536000
+
+# Other rarely changing public assets
+/fonts/*
+  Cache-Control: public, max-age=31536000
+
+# Brand logos in /public root (not under /images/)
+/peisbutikken-logo-on-light.webp
+  Cache-Control: public, max-age=31536000
+/peisbutikken-logo-on-light.avif
+  Cache-Control: public, max-age=31536000
+/peisbutikken-logo-on-dark.webp
+  Cache-Control: public, max-age=31536000
+/peisbutikken-logo-on-dark.avif
+  Cache-Control: public, max-age=31536000

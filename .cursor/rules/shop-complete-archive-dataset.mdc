@@ -1,0 +1,37 @@
+---
+description: Protect /shop complete compact-card dataset + OpenNext R2 populate deploy
+globs: app/shop/**/*,app/brand/**/*,app/produktkategori/**/*,app/tilbud/**/*,app/lagersalg/**/*,app/ombyggingssalg/**/*,components/product-archive/**/*,lib/product-archive*.ts,lib/types/product-archive.ts,lib/graphql/server-products.ts,lib/graphql/queries/products.ts,scripts/run-opennext*.mjs,scripts/ensure-linux-deploy.mjs,scripts/deploy-linux-wsl.sh,scripts/measure-shop-archive-cache.ts,package.json,CLOUDFLARE.md,wrangler.jsonc
+alwaysApply: false
+---
+
+# Shop / product archive: complete compact-card dataset
+
+## Invariant
+
+`/shop` and product archive routes intentionally ship a **complete compact product-card dataset** (prebuilt / SSR / ISR). Client filters and pagination must stay **instant** against that in-memory set.
+
+## Do not
+
+- On-demand card chunking or lazy card-data fetching after a filter
+- Server-roundtrip filters / search that replace the local complete set
+- Partial archive SSR that omits card records until interaction
+- Any UX where cards disappear or load only after filter changes
+- Skip or weaken full R2 incremental-cache upload/populate on production build
+- Replace OpenNext deploy (`deploy` / `deploy:opennext` / WSL deploy script) with bare `wrangler deploy`
+
+## Allowed
+
+- Render only the **active page** in the DOM; keep images lazy / viewport-loaded
+- Slim individual compact card fields; validate serialized-size budget
+- Improve background regeneration, atomicity, or stale-while-revalidate (users keep the previous snapshot while regen runs)
+- Image / media optimizations that do not change the complete-dataset UX
+
+## Deploy
+
+Every production build must run the OpenNext path that **fully populates** the R2 inc-cache. Do not remove that step.
+
+Preflight (no deploy): `npm run release:check` / `npm run release:build:verify` — see `docs/runbooks/cloudflare-release-preflight.md`.
+
+## Approval
+
+Any proposal that changes this architecture needs **explicit user approval** before implementation.

@@ -1,0 +1,58 @@
+---
+description: User-facing text and URLs in Norwegian; developer-only content in English
+alwaysApply: true
+---
+
+# Language: Norwegian for users, English for developers and AI chat
+
+## Norwegian (Bokmål) — everything the end user can see
+
+Use **Norwegian** for:
+
+- **UI copy**: labels, buttons, headings, placeholders, empty states, toasts, dialogs, form validation messages shown in the app
+- **SEO & marketing**: page titles, meta descriptions, alt text on images, legal/consumer-facing pages
+- **URLs users see**: route path segments, slugs, and human-readable URL parts (e.g. `/produkter`, `/handlekurv`, `/kasse` — not `/products`, `/cart`, `/checkout`)
+- **User-facing errors**: messages shown when something fails for the customer (keep technical detail out or behind “contact support”)
+
+Prefer consistent Norwegian terminology across the product.
+
+## English — developers only
+
+Use **English** for:
+
+- **Code**: variable names, function names, types, file names (unless the file is purely locale content)
+- **Comments and JSDoc** in source
+- **Git commits**, internal READMEs aimed at the team, API field names if they mirror a backend contract in English
+- **Console logs**, debug strings, Sentry/internal error codes (user still sees Norwegian in the UI)
+- **Non-user env vars**, config keys, feature flags
+- **AI assistant chat responses** in Cursor (analysis, planning, status updates, and explanations to the team)
+
+## Scope clarification (important)
+
+This rule controls **product/storefront output**, not the language used by the AI assistant in conversation.
+
+- Apply Norwegian only to text that end customers see in the app/site.
+- Keep assistant-to-developer communication in English by default.
+- If the team explicitly requests Norwegian in chat, follow that request for that conversation.
+
+## Quick check
+
+| Seen by customer? | Language   |
+|-------------------|------------|
+| Yes (UI, URL, email to user) | Norwegian |
+| No (code, logs, dev docs)    | English   |
+
+```tsx
+// ✅ GOOD
+const addToCart = () => { ... }; // English identifier
+toast.success("Lagt i handlekurven"); // Norwegian for user
+
+// Route: /handlekurv (Norwegian slug in app router)
+```
+
+```tsx
+// ❌ BAD — English UI for end users
+<Button>Add to cart</Button>
+```
+
+If a string is ambiguous (e.g. shared between admin and storefront), use the audience that actually sees it: storefront → Norwegian; internal admin tools for devs → English is OK if only staff use them.

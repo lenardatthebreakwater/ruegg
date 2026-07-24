@@ -1,0 +1,42 @@
+---
+description: HARD REQUIREMENT — every Task/subagent MUST set model cursor-grok-4.5-high-fast (never omit; never composer-2.5-fast)
+alwaysApply: true
+---
+
+# HARD REQUIREMENT: Subagent `model` parameter (this project)
+
+**MUST** set this exact Task tool parameter on **every** Task / subagent launch — no exceptions unless the user explicitly names a different model in **that same message**:
+
+```text
+model: "cursor-grok-4.5-high-fast"
+```
+
+Cursor UI name: **Cursor Grok 4.5 High Fast**.
+
+## Scope (all of these count)
+
+- `Task` tool calls with any `subagent_type` (`explore`, `generalPurpose`, `shell`, `cursor-guide`, `ci-investigator`, `bugbot`, `security-review`, `best-of-n-runner`, etc.)
+- Foreground **and** background Task launches (`run_in_background: true`)
+- **Multitask Mode** parallel / background agent launches
+- Resumed agents that start a **new** Task invocation (still MUST set `model` on the new call)
+
+## MUST
+
+1. **MUST** include `model: "cursor-grok-4.5-high-fast"` on every Task call.
+2. **MUST** stop and tell the user if that model is unavailable in the allowed list — do **not** silently substitute.
+
+## NEVER
+
+1. **NEVER** omit `model` (inheritance / default / “same as parent” is forbidden).
+2. **NEVER** use `composer-2.5-fast` for Task/subagents unless the user explicitly asks for that model in **that message**.
+3. **NEVER** use any other model slug for Task/subagents unless the user explicitly requests that exact model in **that message**.
+4. **NEVER** treat “faster”, “cheaper”, or explore/quick tasks as a reason to pick a different model.
+
+```text
+// ✅ REQUIRED — every Task call
+model: "cursor-grok-4.5-high-fast"
+
+// ❌ FORBIDDEN — omit model / inherit parent
+// ❌ FORBIDDEN — model: "composer-2.5-fast"
+// ❌ FORBIDDEN — any other slug without an explicit user request in that message
+```

@@ -1,0 +1,20 @@
+---
+description: Prefer Read for terminal metadata; never use Unix head in PowerShell/cmd (OK in WSL/bash)
+alwaysApply: true
+---
+
+# Terminal metadata: avoid Unix `head` in PowerShell
+
+Default shell here is **Windows PowerShell / cmd**, where Unix `head` is usually missing and fails with noisy retries.
+
+## Rules
+
+1. **Prefer** the **Read** tool on specific `terminals/*.txt` files (metadata is in the first ~10 lines). Best default — no OS/PATH friction.
+2. **PowerShell / cmd:** NEVER run Unix `head` (or assume coreutils like `tail`/`cat`). If shell is needed:
+
+```powershell
+Get-Content -TotalCount 15 *.txt
+```
+
+3. **WSL / bash:** `head` is OK when the command actually runs inside WSL or bash.
+4. If `head` fails in PowerShell/cmd, do not retry it — switch to Read or `Get-Content`.

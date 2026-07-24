@@ -1,0 +1,12 @@
+# Append these to the new project's .gitignore
+
+# OpenNext / Cloudflare build output & local state
+.open-next/
+.wrangler/
+.dev.vars
+
+# Local data (e.g. contact form fallback storage)
+/data
+
+# Non-project assets (design inspiration, source images, etc.)
+/inspiration

@@ -1,0 +1,109 @@
+{
+  "namespace": "http://www.sitemaps.org/schemas/sitemap/0.9",
+  "indexUrl": "https://peisbutikken.no/sitemap_index.xml",
+  "generatedAt": "2026-04-14T01:11:44.933Z",
+  "childSitemapCount": 25,
+  "childSitemaps": [
+    {
+      "url": "https://peisbutikken.no/post-sitemap.xml",
+      "entryCount": 26
+    },
+    {
+      "url": "https://peisbutikken.no/page-sitemap.xml",
+      "entryCount": 38
+    },
+    {
+      "url": "https://peisbutikken.no/jet-popup-sitemap.xml",
+      "entryCount": 7
+    },
+    {
+      "url": "https://peisbutikken.no/jet-woo-builder-sitemap.xml",
+      "entryCount": 2
+    },
+    {
+      "url": "https://peisbutikken.no/product-sitemap1.xml",
+      "entryCount": 200
+    },
+    {
+      "url": "https://peisbutikken.no/product-sitemap2.xml",
+      "entryCount": 200
+    },
+    {
+      "url": "https://peisbutikken.no/product-sitemap3.xml",
+      "entryCount": 200
+    },
+    {
+      "url": "https://peisbutikken.no/product-sitemap4.xml",
+      "entryCount": 200
+    },
+    {
+      "url": "https://peisbutikken.no/product-sitemap5.xml",
+      "entryCount": 200
+    },
+    {
+      "url": "https://peisbutikken.no/product-sitemap6.xml",
+      "entryCount": 200
+    },
+    {
+      "url": "https://peisbutikken.no/product-sitemap7.xml",
+      "entryCount": 200
+    },
+    {
+      "url": "https://peisbutikken.no/product-sitemap8.xml",
+      "entryCount": 200
+    },
+    {
+      "url": "https://peisbutikken.no/product-sitemap9.xml",
+      "entryCount": 200
+    },
+    {
+      "url": "https://peisbutikken.no/product-sitemap10.xml",
+      "entryCount": 200
+    },
+    {
+      "url": "https://peisbutikken.no/product-sitemap11.xml",
+      "entryCount": 200
+    },
+    {
+      "url": "https://peisbutikken.no/product-sitemap12.xml",
+      "entryCount": 200
+    },
+    {
+      "url": "https://peisbutikken.no/product-sitemap13.xml",
+      "entryCount": 106
+    },
+    {
+      "url": "https://peisbutikken.no/category-sitemap.xml",
+      "entryCount": 2
+    },
+    {
+      "url": "https://peisbutikken.no/product_brand-sitemap.xml",
+      "entryCount": 27
+    },
+    {
+      "url": "https://peisbutikken.no/product_cat-sitemap.xml",
+      "entryCount": 25
+    },
+    {
+      "url": "https://peisbutikken.no/pa_aduro-deler-sitemap.xml",
+      "entryCount": 86
+    },
+    {
+      "url": "https://peisbutikken.no/pa_dovre-deler-sitemap.xml",
+      "entryCount": 68
+    },
+    {
+      "url": "https://peisbutikken.no/pa_nordpeis-deler-sitemap.xml",
+      "entryCount": 67
+    },
+    {
+      "url": "https://peisbutikken.no/video-sitemap.xml",
+      "entryCount": 73
+    },
+    {
+      "url": "https://peisbutikken.no/local-sitemap.xml",
+      "entryCount": 1
+    }
+  ],
+  "uniquePathCount": 2466
+}

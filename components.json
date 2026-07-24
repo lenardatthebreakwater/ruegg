@@ -1,0 +1,54 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "radix-vega",
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "",
+    "css": "app/globals.css",
+    "baseColor": "neutral",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "iconLibrary": "lucide",
+  "rtl": false,
+  "aliases": {
+    "components": "@/components",
+    "utils": "@/lib/utils",
+    "ui": "@/components/ui",
+    "lib": "@/lib",
+    "hooks": "@/hooks"
+  },
+  "menuColor": "default",
+  "menuAccent": "subtle",
+  "registries": {
+    "@shadcn-studio": {
+      "url": "https://shadcnstudio.com/r/radix-vega/{name}.json",
+      "headers": {
+        "X-Email": "${EMAIL}",
+        "X-License-Key": "${LICENSE_KEY}"
+      }
+    },
+    "@ss-components": {
+      "url": "https://shadcnstudio.com/r/radix-vega/{name}.json",
+      "headers": {
+        "X-Email": "${EMAIL}",
+        "X-License-Key": "${LICENSE_KEY}"
+      }
+    },
+    "@ss-blocks": {
+      "url": "https://shadcnstudio.com/r/radix-vega/{name}.json",
+      "headers": {
+        "X-Email": "${EMAIL}",
+        "X-License-Key": "${LICENSE_KEY}"
+      }
+    },
+    "@ss-themes": {
+      "url": "https://shadcnstudio.com/r/radix-vega/{name}.json",
+      "headers": {
+        "X-Email": "${EMAIL}",
+        "X-License-Key": "${LICENSE_KEY}"
+      }
+    }
+  }
+}
