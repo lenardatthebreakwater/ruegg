@@ -57,13 +57,14 @@ export function HeroFloatingProps({ props, slideKey }: HeroFloatingPropsProps) {
             <Image
               src={prop.src}
               alt=""
-              width={640}
-              height={640}
+              width={480}
+              height={480}
+              unoptimized
               className={cn(
-                "h-auto w-full select-none object-contain",
+                "h-auto w-full bg-transparent select-none object-contain",
                 blendClass[prop.blend ?? "normal"],
               )}
-              sizes="(max-width: 768px) 30vw, 18vw"
+              sizes="(max-width: 768px) 28vw, 14vw"
             />
           </motion.div>
         </motion.div>

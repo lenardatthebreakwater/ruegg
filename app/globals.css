@@ -638,3 +638,34 @@ body:has([data-bottom-bar="product"]) .chatway--trigger-container {
 body:has([data-bottom-bar="product"]) .chatway--frame-container {
   bottom: calc(4.5rem + 3.75rem) !important;
 }
+
+/* Hero firebox sparks — rise + drift + fade (see HeroFireSparks) */
+@keyframes hero-fire-spark-rise {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 0;
+  }
+  12% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.85;
+  }
+  100% {
+    transform: translate3d(var(--spark-drift, 0px), -9rem, 0) scale(0.35);
+    opacity: 0;
+  }
+}
+
+.hero-fire-spark {
+  animation-name: hero-fire-spark-rise;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  will-change: transform, opacity;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-fire-spark {
+    animation: none;
+  }
+}
