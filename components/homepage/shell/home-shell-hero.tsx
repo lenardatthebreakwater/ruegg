@@ -1,61 +1,40 @@
 "use client";
 
-import Link from "next/link";
-import { motion, useReducedMotion } from "motion/react";
+import { useState } from "react";
 
-import { Button } from "@/components/ui/button";
 import { ContainedLayout } from "@/components/layout/contained-layout";
-import {
-  SHELL_CTA_PRIMARY,
-  SHELL_CTA_SECONDARY_ON_MEDIA,
-} from "@/components/homepage/shell/shell-cta";
+import { HeroCopyPanel } from "@/components/homepage/shell/hero/hero-copy-panel";
+import { HeroProductStage } from "@/components/homepage/shell/hero/hero-product-stage";
+import { HeroSlideControls } from "@/components/homepage/shell/hero/hero-slide-controls";
+import { HERO_SLIDES } from "@/components/homepage/shell/hero/hero-slides";
 import { SHELL_CONTENT_MAX } from "@/lib/page-rhythm";
 import { cn } from "@/lib/utils";
 
-const HERO_VIDEO_SRC = "/videos/ruegg-hero.mp4";
-const HERO_POSTER_SRC = "/videos/ruegg-hero-poster.jpg";
-
 /**
- * Strategy A hero - full-bleed single local video, catalog + lead CTAs.
+ * Strategy A hero — product-stage slider with floating garnish props that swap per slide.
+ * Inspired by boss Hostinger demos (ice-cream cutouts + puffer color stage).
  */
 export function HomeShellHero() {
-  const reduce = useReducedMotion();
+  const [activeIndex, setActiveIndex] = useState(0);
+  const slideCount = HERO_SLIDES.length;
+  const slide = HERO_SLIDES[activeIndex] ?? HERO_SLIDES[0];
+
+  const select = (index: number) => {
+    setActiveIndex(((index % slideCount) + slideCount) % slideCount);
+  };
 
   return (
     <section
       aria-labelledby="home-shell-hero-heading"
-      className="relative isolate min-h-[100dvh] overflow-hidden"
+      className="relative isolate min-h-[100dvh] overflow-hidden bg-black"
     >
-      <div className="absolute inset-0">
-        <video
-          className="absolute inset-0 size-full object-cover object-center motion-reduce:hidden"
-          src={HERO_VIDEO_SRC}
-          poster={HERO_POSTER_SRC}
-          muted
-          playsInline
-          loop
-          autoPlay
-          aria-hidden
-        />
-        {/* eslint-disable-next-line @next/next/no-img-element -- single JPG frame for reduced-motion fallback */}
-        <img
-          src={HERO_POSTER_SRC}
-          alt=""
-          aria-hidden
-          className="absolute inset-0 hidden size-full object-cover object-center motion-reduce:block"
-        />
-      </div>
-
+      {/* Soft atmosphere — not flat single color */}
       <div
-        className="pointer-events-none absolute inset-0 bg-gradient-to-r from-[color:var(--ruegg-swiss-deep)]/80 via-[color:var(--ruegg-swiss-ink)]/50 to-transparent"
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_70%_40%,#3d382c_0%,transparent_50%),radial-gradient(ellipse_at_20%_80%,#1a1810_0%,transparent_45%)]"
         aria-hidden
       />
       <div
-        className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[color:var(--ruegg-swiss-deep)]/55 via-transparent to-[color:var(--ruegg-swiss-deep)]/25"
-        aria-hidden
-      />
-      <div
-        className="pointer-events-none absolute inset-0 bg-[color:var(--ruegg-swiss-ink)]/40 md:hidden"
+        className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(38,36,24,0.35)_0%,transparent_28%,rgba(18,16,10,0.65)_100%)]"
         aria-hidden
       />
 
@@ -63,44 +42,29 @@ export function HomeShellHero() {
         as="div"
         className={cn(
           SHELL_CONTENT_MAX,
-          "relative z-10 flex min-h-[100dvh] flex-col justify-end pb-16 pt-24 md:justify-center md:pb-24 md:pt-20",
+          "relative z-10 grid min-h-[100dvh] grid-cols-1 items-end gap-8 pb-12 pt-24",
+          "lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.15fr)] lg:items-center lg:gap-10 lg:pb-20 lg:pt-20",
         )}
       >
-        <motion.div
-          className="max-w-xl"
-          initial={reduce ? false : { opacity: 0, y: 28 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{
-            duration: reduce ? 0 : 0.8,
-            ease: [0.16, 1, 0.3, 1],
-          }}
+        <div className="order-2 flex flex-col gap-8 lg:order-1">
+          <HeroCopyPanel slide={slide} />
+          <HeroSlideControls
+            slides={HERO_SLIDES}
+            activeIndex={activeIndex}
+            onSelect={select}
+            onPrev={() => select(activeIndex - 1)}
+            onNext={() => select(activeIndex + 1)}
+          />
+        </div>
+
+        <div
+          id="home-shell-hero-stage"
+          role="tabpanel"
+          aria-labelledby={`hero-tab-${slide.id}`}
+          className="order-1 lg:order-2"
         >
-          <p className="font-display text-sm font-medium tracking-[0.08em] text-white/80">
-            Rüegg
-          </p>
-          <h1
-            id="home-shell-hero-heading"
-            className="mt-4 font-display text-4xl font-medium tracking-tight text-white md:text-5xl lg:text-6xl"
-          >
-            Sveitsiske peiser for norske hjem
-          </h1>
-          <p className="mt-4 max-w-[36ch] text-base leading-relaxed text-white/85 sm:text-lg">
-            Utforsk peiser, peisinnsatser og utepeiser. Få råd og tilbud fra oss.
-          </p>
-          <div className="mt-8 flex flex-wrap gap-3">
-            <Button asChild size="lg" className={SHELL_CTA_PRIMARY}>
-              <Link href="/shop/">Utforsk peiser</Link>
-            </Button>
-            <Button
-              asChild
-              variant="outline"
-              size="lg"
-              className={SHELL_CTA_SECONDARY_ON_MEDIA}
-            >
-              <Link href="/kontakt-oss/">Be om tilbud</Link>
-            </Button>
-          </div>
-        </motion.div>
+          <HeroProductStage slide={slide} />
+        </div>
       </ContainedLayout>
     </section>
   );
