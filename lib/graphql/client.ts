@@ -3,11 +3,32 @@
  * Uses fetch; no extra dependencies.
  */
 
+/** Trim quotes/spaces and ensure an http(s) scheme (Vercel envs often omit https://). */
+function normalizeGraphqlUrl(raw: string): string {
+  let url = raw.trim().replace(/^['"]|['"]$/g, "");
+  if (!url) return url;
+  if (!/^https?:\/\//i.test(url)) {
+    url = `https://${url.replace(/^\/\//, "")}`;
+  }
+  return url;
+}
+
 const getGraphqlUrl = (): string => {
-  const url = process.env.NEXT_PUBLIC_WORDPRESS_GRAPHQL_URL;
-  if (!url) {
+  const raw = process.env.NEXT_PUBLIC_WORDPRESS_GRAPHQL_URL;
+  if (!raw?.trim()) {
     throw new Error(
       "NEXT_PUBLIC_WORDPRESS_GRAPHQL_URL is not set. Add it to .env.local (see .env.example)."
+    );
+  }
+  const url = normalizeGraphqlUrl(raw);
+  try {
+    const parsed = new URL(url);
+    if (parsed.protocol !== "http:" && parsed.protocol !== "https:") {
+      throw new Error("invalid protocol");
+    }
+  } catch {
+    throw new Error(
+      `NEXT_PUBLIC_WORDPRESS_GRAPHQL_URL is invalid ("${raw}"). Use e.g. https://ruegg.no/graphql`
     );
   }
   return url;

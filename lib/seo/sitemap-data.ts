@@ -433,12 +433,24 @@ export type SitemapManifestItem = {
  * Lists child sitemaps for /sitemap.xml. Omits empty children from the index
  * (404 only for unknown names; known empty names return an empty urlset).
  */
+async function safeSitemapEntries(
+  label: string,
+  load: () => Promise<SitemapEntry[]>
+): Promise<SitemapEntry[]> {
+  try {
+    return await load();
+  } catch (error) {
+    console.error(`sitemap: failed to load ${label}`, error);
+    return [];
+  }
+}
+
 export async function getSitemapManifest(): Promise<SitemapManifestItem[]> {
   const [products, pages, categories, reservedeler] = await Promise.all([
-    getProductSitemapEntries(),
-    getPageSitemapEntries(),
-    getTermSitemapEntries(),
-    getReservedelerSitemapEntries(),
+    safeSitemapEntries("products", getProductSitemapEntries),
+    safeSitemapEntries("pages", getPageSitemapEntries),
+    safeSitemapEntries("categories", getTermSitemapEntries),
+    safeSitemapEntries("reservedeler", getReservedelerSitemapEntries),
   ]);
 
   const manifest: SitemapManifestItem[] = [
@@ -473,15 +485,23 @@ export async function getSitemapManifest(): Promise<SitemapManifestItem[]> {
 export async function getSitemapEntriesByName(
   name: string
 ): Promise<SitemapEntry[] | null> {
-  if (name === "pages.xml") return getPageSitemapEntries();
-  if (name === "categories.xml") return getTermSitemapEntries();
-  if (name === "reservedeler.xml") return getReservedelerSitemapEntries();
+  if (name === "pages.xml") {
+    return safeSitemapEntries("pages", getPageSitemapEntries);
+  }
+  if (name === "categories.xml") {
+    return safeSitemapEntries("categories", getTermSitemapEntries);
+  }
+  if (name === "reservedeler.xml") {
+    return safeSitemapEntries("reservedeler", getReservedelerSitemapEntries);
+  }
 
   const productChunkMatch = name.match(/^products-(\d+)\.xml$/);
   if (productChunkMatch) {
     const chunkIndex = Number.parseInt(productChunkMatch[1], 10) - 1;
     if (chunkIndex < 0) return null;
-    const chunks = chunkEntries(await getProductSitemapEntries());
+    const chunks = chunkEntries(
+      await safeSitemapEntries("products", getProductSitemapEntries)
+    );
     // Known in-range chunk may be empty only if catalog shrank; out-of-range → 404.
     return chunks[chunkIndex] ?? null;
   }

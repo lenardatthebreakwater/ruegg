@@ -15,13 +15,33 @@ function getBaseUrlFromGraphqlUrl(graphqlUrl: string): string {
   return normalized
 }
 
+function coerceHttpBaseUrl(value: string): string | null {
+  let url = value.trim().replace(/^['"]|['"]$/g, "")
+  if (!url) return null
+  if (!/^https?:\/\//i.test(url)) {
+    url = `https://${url.replace(/^\/\//, "")}`
+  }
+  try {
+    const parsed = new URL(url)
+    if (parsed.protocol !== "http:" && parsed.protocol !== "https:") return null
+    return normalizeBaseUrl(parsed.origin + parsed.pathname.replace(/\/+$/, ""))
+  } catch {
+    return null
+  }
+}
+
 export function getWordpressSiteUrl(): string | null {
   const explicit = process.env.NEXT_PUBLIC_WORDPRESS_SITE_URL
-  if (explicit) return normalizeBaseUrl(explicit)
+  if (explicit) {
+    const coerced = coerceHttpBaseUrl(explicit)
+    if (coerced) return coerced
+  }
 
   const graphqlUrl = process.env.NEXT_PUBLIC_WORDPRESS_GRAPHQL_URL
   if (!graphqlUrl) return null
-  return getBaseUrlFromGraphqlUrl(graphqlUrl)
+  const coercedGraphql = coerceHttpBaseUrl(graphqlUrl)
+  if (!coercedGraphql) return null
+  return getBaseUrlFromGraphqlUrl(coercedGraphql)
 }
 
 export function getWordpressCheckoutUrl(): string | null {
